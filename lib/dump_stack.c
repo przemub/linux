@@ -44,7 +44,7 @@ void __init dump_stack_set_arch_desc(const char *fmt, ...)
  */
 void dump_stack_print_info(const char *log_lvl)
 {
-	printk("%sCPU: %d PID: %d Comm: %.20s %s%s %s %.*s\n",
+	printk("%sJednostka obliczeniowa: %d Numer zadania: %d Miedzymordzie: %.20s %s%s %s %.*s\n",
 	       log_lvl, raw_smp_processor_id(), current->pid, current->comm,
 	       kexec_crash_loaded() ? "Kdump: loaded " : "",
 	       print_tainted(),
@@ -53,7 +53,7 @@ void dump_stack_print_info(const char *log_lvl)
 	       init_utsname()->version);
 
 	if (dump_stack_arch_desc_str[0] != '\0')
-		printk("%sHardware name: %s\n",
+		printk("%sNazwa sprzetu: %s\n",
 		       log_lvl, dump_stack_arch_desc_str);
 
 	print_worker_info(log_lvl, current);

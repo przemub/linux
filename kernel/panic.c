@@ -175,7 +175,8 @@ void panic(const char *fmt, ...)
 	va_start(args, fmt);
 	vsnprintf(buf, sizeof(buf), fmt, args);
 	va_end(args);
-	pr_emerg("Kernel panic - not syncing: %s\n", buf);
+	//pr_emerg("Kernel panic - not syncing: %s\n", buf);
+	pr_emerg("Poploch jadra - nie zestrajam: %s\n", buf);
 #ifdef CONFIG_DEBUG_BUGVERBOSE
 	/*
 	 * Avoid nested stack-dumping if a panic occurs during oops processing
@@ -254,7 +255,7 @@ void panic(const char *fmt, ...)
 		 * Delay timeout seconds before rebooting the machine.
 		 * We can't use the "normal" timers since we just panicked.
 		 */
-		pr_emerg("Rebooting in %d seconds..\n", panic_timeout);
+		pr_emerg("Uruchamiam ponownie za %d sekundy..\n", panic_timeout);
 
 		for (i = 0; i < panic_timeout * 1000; i += PANIC_TIMER_STEP) {
 			touch_nmi_watchdog();
@@ -290,7 +291,7 @@ void panic(const char *fmt, ...)
 		disabled_wait(caller);
 	}
 #endif
-	pr_emerg("---[ end Kernel panic - not syncing: %s ]---\n", buf);
+	pr_emerg("---[ koniec poplochu jadra - nie zestrajam: %s ]---\n", buf);
 	local_irq_enable();
 	for (i = 0; ; i += PANIC_TIMER_STEP) {
 		touch_softlockup_watchdog();
@@ -339,7 +340,7 @@ const struct taint_flag taint_flags[TAINT_FLAGS_COUNT] = {
  */
 const char *print_tainted(void)
 {
-	static char buf[TAINT_FLAGS_COUNT + sizeof("Tainted: ")];
+	static char buf[TAINT_FLAGS_COUNT + sizeof("Splugawiony: ")];
 
 	BUILD_BUG_ON(ARRAY_SIZE(taint_flags) != TAINT_FLAGS_COUNT);
 
@@ -347,7 +348,7 @@ const char *print_tainted(void)
 		char *s;
 		int i;
 
-		s = buf + sprintf(buf, "Tainted: ");
+		s = buf + sprintf(buf, "Splugawiony: ");
 		for (i = 0; i < TAINT_FLAGS_COUNT; i++) {
 			const struct taint_flag *t = &taint_flags[i];
 			*s++ = test_bit(i, &tainted_mask) ?
@@ -355,7 +356,7 @@ const char *print_tainted(void)
 		}
 		*s = 0;
 	} else
-		snprintf(buf, sizeof(buf), "Not tainted");
+		snprintf(buf, sizeof(buf), "Nie splugawiony");
 
 	return buf;
 }
@@ -515,11 +516,11 @@ void __warn(const char *file, int line, void *caller, unsigned taint,
 		pr_warn(CUT_HERE);
 
 	if (file)
-		pr_warn("WARNING: CPU: %d PID: %d at %s:%d %pS\n",
+		pr_warn("Ostrzezenie: Jednostka obliczeniowa: %d Numer zadania: %d na %s:%d %pS\n",
 			raw_smp_processor_id(), current->pid, file, line,
 			caller);
 	else
-		pr_warn("WARNING: CPU: %d PID: %d at %pS\n",
+		pr_warn("OSTRZEZENIE: Jednostka obliczeniowa: %d Numer zadania: %d na %pS\n",
 			raw_smp_processor_id(), current->pid, caller);
 
 	if (args)

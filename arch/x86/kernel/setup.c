@@ -793,7 +793,7 @@ static int
 dump_kernel_offset(struct notifier_block *self, unsigned long v, void *p)
 {
 	if (kaslr_enabled()) {
-		pr_emerg("Kernel Offset: 0x%lx from 0x%lx (relocation range: 0x%lx-0x%lx)\n",
+		pr_emerg("Przesuniecie jadra: 0x%lx z 0x%lx (zakres przemiejscowienia: 0x%lx-0x%lx)\n",
 			 kaslr_offset(),
 			 __START_KERNEL,
 			 __START_KERNEL_map,

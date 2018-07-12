@@ -98,11 +98,11 @@ void show_opcodes(u8 *rip, const char *loglvl)
 	u8 *ip;
 	int i;
 
-	printk("%sCode: ", loglvl);
+	printk("%sRozkaz: ", loglvl);
 
 	ip = (u8 *)rip - code_prologue;
 	if (probe_kernel_read(opcodes, ip, OPCODE_BUFSIZE)) {
-		pr_cont("Bad RIP value.\n");
+		pr_cont("Bledna wartosc wskaznika rozkazu.\n");
 		return;
 	}
 
@@ -167,7 +167,7 @@ void show_trace_log_lvl(struct task_struct *task, struct pt_regs *regs,
 	int graph_idx = 0;
 	bool partial = false;
 
-	printk("%sCall Trace:\n", log_lvl);
+	printk("%sSlad stosu:\n", log_lvl);
 
 	unwind_start(&state, task, regs, stack);
 	stack = stack ? : get_stack_pointer(task, regs);
