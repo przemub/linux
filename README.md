@@ -42,5 +42,5 @@ Gdy zostaną one rozwiązane, można będzie się naprawdę zająć tłumaczenie
 
 Zapraszam do dyskusji w zakładce "Issues".
 
-Pomysły na terminy można na razie dawać tu: https://github.com/przemub/polinux/wiki/Pomys%C5%82y
+Pomysły można na razie dawać tu: https://github.com/przemub/polinux/wiki/Pomys%C5%82y
 
