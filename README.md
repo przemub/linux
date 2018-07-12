@@ -1,5 +1,5 @@
 # polinux
-polinux to projekt edukacyjno-rozwojowy, mający na celu oswojenie przeze mnie (i ewentualnych innych uczestników?)
+polinux to projekt edukacyjno-rozrywkowy, mający na celu oswojenie przeze mnie (i ewentualnych innych uczestników?)
 drzewa kodu źródłowego Linuksa poprzez tłumaczenie na język polski komunikatów jądra, które są wpisane w źródła "na sztywno"
 po angielsku.
 
