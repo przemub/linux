@@ -22,7 +22,7 @@ i wprowadzić go przez to do swojego słownika.
 
 Użyj instrukcji z neta dla swojej ulubionej dystrybucji, jak skompilować jądro, oczywiście pobierając źródła z tej strony - na przykład tą komendą:
 ```sh
-git clone --depth=1 https://przemub.pl/polinux
+git clone --depth=1 https://github.com/przemub/polinux
 ```
 
 *Swoją drogą, używam Archa*, polecam więc tę instrukcję: https://wiki.archlinux.org/index.php/Kernels/Traditional_compilation
