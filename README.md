@@ -44,3 +44,4 @@ Zapraszam do dyskusji w zakładce "Issues".
 
 Pomysły można na razie dawać tu: https://github.com/przemub/polinux/wiki/Pomys%C5%82y
 
+Jeśli chciał(a)byś pomóc w samym tłumaczeniu, zasubskrybuj to repozytorium i czekaj, aż będzie to możliwe :)
