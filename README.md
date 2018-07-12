@@ -6,7 +6,7 @@ po angielsku.
 Zaczęło się od tego oto posta na grupie „Linuksowa Alternatywa”:
 <img src="http://przemub.pl/pub/poploch.png" alt="Zrzut ekranu" />
 
-24 godziny później powstała ta oto pierwsza działająca próbka polinuksa:
+48 godzin później powstała ta oto pierwsza działająca próbka polinuksa:
 <img src="http://przemub.pl/pub/poploch2.png" alt="Zdjęcie ekranu" />
 
 Co dalej? Czas pokaże.
