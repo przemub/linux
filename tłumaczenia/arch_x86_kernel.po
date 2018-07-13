@@ -1,0 +1,2252 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: arch/x86/kernel/alternative.c:0
+msgid "SMP alternatives: "
+msgstr ""
+
+#: arch/x86/kernel/alternative.c:51
+msgid "%s: "
+msgstr ""
+
+#: arch/x86/kernel/alternative.c:64
+msgid "%02hhx "
+msgstr ""
+
+#: arch/x86/kernel/alternative.c:65
+msgid "%02hhx\n"
+msgstr ""
+
+#: arch/x86/kernel/alternative.c:543
+msgid "switching to SMP code\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:189
+msgid "PCI-DMA: Memory would be corrupted\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:229
+msgid "dma_map_area overflow %lu bytes\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:309
+msgid "dma_map_sg overflow\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:469
+msgid "dma_map_sg: overflow on %lu pages\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:601
+msgid "PCI-DMA: Restoring GART aperture settings\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:617
+msgid "PCI-DMA: Resuming GART IOMMU\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:641
+msgid "PCI-DMA: Disabling AGP.\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:668
+msgid "Cannot allocate GATT table"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:670
+msgid "Could not set GART PTEs to uncacheable pages"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:678
+msgid "PCI-DMA: aperture base @ %x size %u KB\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:685
+msgid "PCI-DMA: More than 4GB of RAM and no IOMMU\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:752
+msgid "More than 4GB of memory but GART IOMMU not available.\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:753
+msgid "falling back to iommu=soft.\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:767
+msgid "PCI-DMA: using GART IOMMU.\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:774
+msgid "Cannot allocate iommu bitmap\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:782
+msgid "PCI-DMA: Cannot trace all the entries\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:792
+msgid "PCI-DMA: Reserving %luMB of IOMMU area in the AGP aperture\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_gart_64.c:838
+msgid "Cannot allocate iommu scratch page"
+msgstr ""
+
+#: arch/x86/kernel/amd_nb.c:5
+msgid ": "
+msgstr ""
+
+#: arch/x86/kernel/amd_nb.c:117
+msgid "Error programming SMN address 0x%x.\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_nb.c:124
+msgid "Error %s SMN address 0x%x.\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_nb.c:178
+msgid "Error writing DF Indirect FICAA, FICAA=0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_nb.c:184
+msgid "Error reading DF Indirect FICAD LO, FICAA=0x%x.\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_nb.c:367
+msgid "Cannot initialize GART flush words, GART support disabled\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_nb.c:410
+msgid "nothing to flush?\n"
+msgstr ""
+
+#: arch/x86/kernel/amd_nb.c:446
+msgid "x86/cpu/AMD: CPU erratum 688 worked around\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:87
+msgid "APBT base already mapped\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:92
+msgid "Failed to get MTMR %d from SFI\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:98
+msgid "No timer base from SFI, use default\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:103
+msgid "Failed mapping APBT phy address at %lu\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:116
+msgid "Use timer %d for clocksource\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:127
+msgid "Failed to setup APB system timer\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:159
+msgid "%s clockevent registered as global\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:198
+msgid "Registering CPU %d clockevent device %s, cpu %08x\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:223
+msgid "skipping APBT CPU %u offline\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:225
+msgid "APBT clockevent for cpu %u offline\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:271
+msgid "APBT counter not counting. APBT disabled\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:304
+msgid "APBT has invalid freq 0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:308
+msgid "APBT has failed to register clocksource\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:314
+msgid "APBT has failed to register clockevent\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:320
+msgid "apbt: disabled per cpu timer\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:323
+msgid "%s: %d CPUs online\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:328
+msgid "%s: %d APB timers used\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:339
+msgid "Failed to get timer for cpu %d\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:349
+msgid "failed to enable APB timer\n"
+msgstr ""
+
+#: arch/x86/kernel/apb_timer.c:399
+msgid "TSC freq calculated by APB timer is %lu khz\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:13
+msgid "AGP: "
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:108
+msgid "Cannot allocate aperture memory hole [mem %#010lx-%#010lx] (%uKB)\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:113
+msgid "Mapping aperture over RAM [mem %#010lx-%#010lx] (%uKB)\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:158
+msgid "pci 0000:%02x:%02x:%02x: AGP bridge\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:161
+msgid "pci 0000:%02x:%02x.%d: APSIZE unreadable\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:186
+msgid ""
+"pci 0000:%02x:%02x.%d: AGP aperture [bus addr %#010Lx-%#010Lx] (old size "
+"%uMB)\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:190
+msgid ""
+"pci 0000:%02x:%02x.%d: AGP aperture size %uMB (APSIZE %#x) is not right, "
+"using settings from NB\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:195
+msgid ""
+"pci 0000:%02x:%02x.%d: AGP aperture [bus addr %#010Lx-%#010Lx] (%uMB, APSIZE "
+"%#x)\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:253
+msgid "No AGP bridge found\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:340
+msgid "e820: reserve [mem %#010Lx-%#010Lx] for GART\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:388
+msgid "Checking aperture...\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:429
+msgid "Node %d: aperture [bus addr %#010Lx-%#010Lx] (%uMB)\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:442
+msgid "you are using iommu with agp, but GART size is less than 64MB\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:443
+msgid "please increase GART size in your BIOS setup\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:444
+msgid "if BIOS doesn't have that option, contact your HW vendor!\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:489
+msgid "Your BIOS doesn't leave an aperture memory hole\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:490
+msgid "Please enable the IOMMU option in the BIOS setup\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:491
+msgid "This costs you %dMB of RAM\n"
+msgstr ""
+
+#: arch/x86/kernel/aperture_64.c:505
+msgid "Not enough memory for aperture"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:203
+msgid "apm: "
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:510
+msgid "%s: %s\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:512
+msgid "%s: linux error code %i\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:514
+msgid "%s: unknown error code %#2.2x\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:860
+msgid "apm_do_idle failed (%d)\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1196
+msgid "an event queue overflowed\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1332
+msgid "apm: received %s notify\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1335
+msgid "apm: received unknown "
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1422
+msgid "apm: setting state busy\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1459
+msgid "%s passed bad filp\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1598
+msgid "filp not in user list\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1766
+msgid "apm: Connection version %d.%d\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1797
+msgid "apm: power status not available\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1834
+msgid "unknown\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1836
+msgid "%d%%\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1844
+msgid "%d %s\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1939
+msgid "%s\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1949
+msgid "%s machine detected. Mousepad Resume Bug "
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1959
+msgid "%s bios detected. "
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1970
+msgid "%s machine detected. "
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1993
+msgid "This bug is fixed in bios P15 which is available for\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:1994
+msgid "download from support.intel.com\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2028
+msgid "BIOS strings suggest APM bugs, "
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2040
+msgid "BIOS strings suggest APM reports battery life "
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2274
+msgid "apm: BIOS not found.\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2284
+msgid "apm: no 32 bit BIOS support\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2310
+msgid "apm: entry %x:%x cseg16 %x dseg %x"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2314
+msgid " cseg len %x, dseg len %x"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2318
+msgid " cseg16 len %x"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2323
+msgid "disabled on user request.\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2327
+msgid "disabled - APM is not SMP safe.\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2332
+msgid "overridden by ACPI.\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2366
+msgid "disabled - Unable to start kernel thread\n"
+msgstr ""
+
+#: arch/x86/kernel/apm_32.c:2386
+msgid "apm: Could not register misc device.\n"
+msgstr ""
+
+#: arch/x86/kernel/bootflag.c:44
+msgid "Simple Boot Flag at 0x%x set to 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/bootflag.c:87
+msgid "Simple Boot Flag value 0x%x read from "
+msgstr ""
+
+#: arch/x86/kernel/check.c:115
+msgid "Scanning %d areas for low memory corruption\n"
+msgstr ""
+
+#: arch/x86/kernel/check.c:134
+msgid "Corrupted low memory at %p (%lx phys) = %08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/check.c:159
+msgid "Scanning for low memory corruption every %d seconds\n"
+msgstr ""
+
+#: arch/x86/kernel/cpuid.c:158
+msgid "cpuid: unable to get major %d for cpuid\n"
+msgstr ""
+
+#: arch/x86/kernel/crash.c:12
+msgid "kexec: "
+msgstr ""
+
+#: arch/x86/kernel/crash.c:456
+msgid "Loaded backup region at 0x%lx backup_start=0x%lx memsz=0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/crash.c:477
+msgid "Loaded ELF headers at 0x%lx bufsz=0x%lx memsz=0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/crash_dump_32.c:68
+msgid "Kdump: Kdump buffer page not"
+msgstr ""
+
+#: arch/x86/kernel/crash_dump_32.c:88
+msgid "Kdump: Failed to allocate kdump buffer"
+msgstr ""
+
+#: arch/x86/kernel/devicetree.c:145
+msgid "%pOF: missing local APIC ID\n"
+msgstr ""
+
+#: arch/x86/kernel/devicetree.c:254
+msgid "Can't obtain address from device node %pOF.\n"
+msgstr ""
+
+#: arch/x86/kernel/devicetree.c:271
+msgid "Error: No information about IO-APIC in OF.\n"
+msgstr ""
+
+#: arch/x86/kernel/doublefault.c:28
+msgid "PANIC: double fault, gdt at %08lx [%d bytes]\n"
+msgstr ""
+
+#: arch/x86/kernel/doublefault.c:33
+msgid "double fault, tss at %08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/doublefault.c:38
+msgid "eip = %08lx, esp = %08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/doublefault.c:41
+msgid "eax = %08lx, ebx = %08lx, ecx = %08lx, edx = %08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/doublefault.c:43
+msgid "esi = %08lx, edi = %08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/doublefault.c:78
+msgid "PANIC: double fault, error_code: 0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/doublefault.c:80
+msgid "Machine halted."
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:68
+msgid "%s %s%pB\n"
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:68
+msgid "? "
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:73
+msgid "RIP: %04x:%pS\n"
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:74
+msgid "RSP: %04x:%016lx EFLAGS: %08lx"
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:113
+msgid "%sCall Trace:\n"
+msgstr "%sŚlad stosu:\n"
+
+#: arch/x86/kernel/dumpstack.c:152
+msgid "%s <%s>\n"
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:220
+msgid "%s </%s>\n"
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:292
+msgid "Fatal exception in interrupt"
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:294
+msgid "Fatal exception"
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:334
+msgid "EIP: %pS SS:ESP: %04x:%08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:338
+msgid "RIP: %pS RSP: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:402
+msgid "Code: "
+msgstr "Rozkaz: "
+
+#: arch/x86/kernel/dumpstack.c:413
+msgid " Bad RIP value."
+msgstr " Błędna wartość wskaźnika rozkazu."
+
+#: arch/x86/kernel/dumpstack.c:417
+msgid "<%02x> "
+msgstr ""
+
+#: arch/x86/kernel/dumpstack.c:419
+msgid "%02x "
+msgstr ""
+
+#: arch/x86/kernel/dumpstack_32.c:117
+msgid "WARNING: stack recursion on stack type %d\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:157
+msgid "e820: too many entries; ignoring [mem %#010llx-%#010llx]\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:176
+msgid "usable"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:177
+msgid "reserved"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:178
+msgid "ACPI data"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:179
+msgid "ACPI NVS"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:180
+msgid "unusable"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:182
+msgid "persistent (type %u)"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:183
+msgid "type %u"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:192
+msgid "%s: [mem %#018Lx-%#018Lx] "
+msgstr ""
+
+#: arch/x86/kernel/e820.c:444
+msgid "e820: update [mem %#010Lx-%#010Lx] "
+msgstr ""
+
+#: arch/x86/kernel/e820.c:446
+msgid " ==> "
+msgstr ""
+
+#: arch/x86/kernel/e820.c:520
+msgid "e820: remove [mem %#010Lx-%#010Lx] "
+msgstr ""
+
+#: arch/x86/kernel/e820.c:576
+msgid "e820: modified physical RAM map:\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:651
+msgid "e820: [mem %#010lx-%#010lx] available for PCI devices\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:713
+msgid "e820: extended physical RAM map:\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:782
+msgid "e820: update e820_table_kexec for e820__memblock_alloc_reserved()\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:832
+msgid "e820: last_pfn = %#lx max_arch_pfn = %#lx\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:868
+msgid "mem=nopentium ignored! (only supported on x86_32)\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:992
+msgid "extended physical RAM map:\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:1005
+msgid "Invalid user supplied memory map"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:1007
+msgid "e820: user-defined physical RAM map:\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:1182
+msgid "e820: reserve RAM buffer [mem %#010llx-%#010llx]\n"
+msgstr ""
+
+#: arch/x86/kernel/e820.c:1240
+msgid "e820: BIOS-provided physical RAM map:\n"
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:30
+msgid "pci 0000:%02x:%02x.%d: %s"
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:43
+msgid "Detected use of extended apic ids "
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:46
+msgid "Enabling hypertransport extended "
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:48
+msgid "Note this is a bios bug, "
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:104
+msgid "Nvidia board "
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:107
+msgid "If you got timer trouble "
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:154
+msgid "SB4X0 revision 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:155
+msgid "Ignoring ACPI timer override.\n"
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:196
+msgid "SB600 revision 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:556
+msgid "Reserving Intel graphics memory at %pR\n"
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:590
+msgid ""
+"x86/hpet: Will disable the HPET for this platform because it's not reliable\n"
+msgstr ""
+
+#: arch/x86/kernel/early-quirks.c:634
+msgid "Resetting Apple AirPort card (left enabled by EFI)\n"
+msgstr ""
+
+#: arch/x86/kernel/early_printk.c:214
+msgid "pciserial"
+msgstr ""
+
+#: arch/x86/kernel/early_printk.c:323
+msgid "ERROR: earlyprintk= %s already used\n"
+msgstr ""
+
+#: arch/x86/kernel/early_printk.c:395
+msgid "earlyprintk"
+msgstr ""
+
+#: arch/x86/kernel/ftrace.c:602
+msgid "Failed on %s (%d):\n"
+msgstr ""
+
+#: arch/x86/kernel/ftrace.c:891
+msgid "Expected e8, got %x\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:141
+msgid "hpet: %s(%d):\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:145
+msgid "hpet: ID: 0x%x, PERIOD: 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:148
+msgid "hpet: CFG: 0x%x, STATUS: 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:151
+msgid "hpet: COUNTER_l: 0x%x, COUNTER_h: 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:156
+msgid "hpet: T%d: CFG_l: 0x%x, CFG_h: 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:160
+msgid "hpet: T%d: CMP_l: 0x%x, CMP_h: 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:164
+msgid "hpet: T%d ROUTE_l: 0x%x, ROUTE_h: 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:291
+msgid "hpet clockevent registered\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:524
+msgid "Spurious HPET timer interrupt on HPET timer %d\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:545
+msgid "hpet: %s irq %d for MSI\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:644
+msgid "HPET: %d timers in total, %d timers will be used for per-cpu timer\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:973
+msgid "HPET initial state will not be saved\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:977
+msgid "HPET: Unrecognized bits %#x set in global cfg\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:990
+msgid "HPET: Unrecognized bits %#x set in cfg#%u\n"
+msgstr ""
+
+#: arch/x86/kernel/hpet.c:1320
+msgid "hpet1: lost %d rtc interrupts\n"
+msgstr ""
+
+#: arch/x86/kernel/i8259.c:317
+msgid "Using NULL legacy PIC\n"
+msgstr ""
+
+#: arch/x86/kernel/io_delay.c:50
+msgid "%s: using 0xed I/O delay port\n"
+msgstr ""
+
+#: arch/x86/kernel/irq.c:38
+msgid "unexpected IRQ trap at vector %02x\n"
+msgstr ""
+
+#: arch/x86/kernel/irq.c:248
+msgid "%s: %d.%d No irq handler for vector\n"
+msgstr ""
+
+#: arch/x86/kernel/irq_32.c:41
+msgid "low stack detected by irq handler\n"
+msgstr ""
+
+#: arch/x86/kernel/irq_32.c:44
+msgid "low stack detected by irq handler - check messages\n"
+msgstr ""
+
+#: arch/x86/kernel/irq_32.c:127
+msgid "CPU %u irqstacks, hard=%p soft=%p\n"
+msgstr ""
+
+#: arch/x86/kernel/jailhouse.c:110
+msgid "Jailhouse: Restart not supported, halting\n"
+msgstr ""
+
+#: arch/x86/kernel/jailhouse.c:179
+msgid "Jailhouse: No valid setup data found"
+msgstr ""
+
+#: arch/x86/kernel/jailhouse.c:182
+msgid "Jailhouse: Unsupported setup data structure"
+msgstr ""
+
+#: arch/x86/kernel/jailhouse.c:185
+msgid "Jailhouse: PM-Timer IO Port: %#x\n"
+msgstr ""
+
+#: arch/x86/kernel/jump_label.c:35
+msgid "jump_label: Fatal kernel bug, unexpected op at %pS [%p] (%5ph) %d\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:11
+msgid "kexec-bzImage64: "
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:86
+msgid "Final command line is: %s\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:274
+msgid "File is too short to be a bzImage\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:280
+msgid "Not a bzImage\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:285
+msgid "No x86 boot sector present\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:290
+msgid "Must be at least protocol version 2.12\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:295
+msgid "zImage not a bzImage\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:300
+msgid "Not a bzImage64. XLF_KERNEL_64 is not set.\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:305
+msgid "XLF_CAN_BE_LOADED_ABOVE_4G is not set.\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:314
+msgid "EFI is 32 bit. Can't load kernel above 4G.\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:319
+msgid "It's a relocatable bzImage64\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:353
+msgid "bzImage truncated\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:358
+msgid "Kernel command line too long\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:367
+msgid ""
+"Appending elfcorehdr=<addr> to command line exceeds maximum allowed length\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:384
+msgid "Loading purgatory failed\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:388
+msgid "Loaded purgatory at 0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:427
+msgid ""
+"Loaded boot_param, command line and misc at 0x%lx bufsz=0x%lx memsz=0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:441
+msgid "Loaded 64bit kernel at 0x%lx bufsz=0x%lx memsz=0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:455
+msgid "Loaded initrd at 0x%lx bufsz=0x%lx memsz=0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/kexec-bzimage64.c:479
+msgid "Could not find address of symbol stack_end\n"
+msgstr ""
+
+#: arch/x86/kernel/kgdb.c:303
+msgid "Cannot remove hw breakpoint at %lx\n"
+msgstr ""
+
+#: arch/x86/kernel/kgdb.c:330
+msgid "KGDB: hw bpt remove failed %lx\n"
+msgstr ""
+
+#: arch/x86/kernel/kgdb.c:501
+msgid "KGDB: trap/step from kernel to user space, "
+msgstr ""
+
+#: arch/x86/kernel/kgdb.c:678
+msgid "kgdb: Could not allocate hw"
+msgstr ""
+
+#: arch/x86/kernel/kvm.c:310
+msgid "kvm-stealtime: cpu %d, msr %llx\n"
+msgstr ""
+
+#: arch/x86/kernel/kvm.c:348
+msgid "KVM setup async PF for cpu %d\n"
+msgstr ""
+
+#: arch/x86/kernel/kvm.c:374
+msgid "Unregister pv shared memory for cpu %d\n"
+msgstr ""
+
+#: arch/x86/kernel/kvm.c:570
+msgid "kvm_guest: Failed to install cpu hotplug callbacks\n"
+msgstr ""
+
+#: arch/x86/kernel/kvm.c:657
+msgid "KVM setup pv remote TLB flush\n"
+msgstr ""
+
+#: arch/x86/kernel/kvmclock.c:114
+msgid "kvm-clock: using sched offset of %llu cycles\n"
+msgstr ""
+
+#: arch/x86/kernel/kvmclock.c:196
+msgid "kvm-clock: cpu %d, msr %x:%x, %s\n"
+msgstr ""
+
+#: arch/x86/kernel/kvmclock.c:318
+msgid "kvm-clock: Using msrs %x and %x"
+msgstr ""
+
+#: arch/x86/kernel/machine_kexec_64.c:413
+msgid "Applying relocate section %s to %u\n"
+msgstr ""
+
+#: arch/x86/kernel/machine_kexec_64.c:449
+msgid "Symbol: %s info: %02x shndx: %02x value=%llx size: %llx\n"
+msgstr ""
+
+#: arch/x86/kernel/machine_kexec_64.c:454
+msgid "Undefined symbol: %s\n"
+msgstr ""
+
+#: arch/x86/kernel/machine_kexec_64.c:459
+msgid "symbol '%s' in common section\n"
+msgstr ""
+
+#: arch/x86/kernel/machine_kexec_64.c:466
+msgid "Invalid section %d for symbol %s\n"
+msgstr ""
+
+#: arch/x86/kernel/machine_kexec_64.c:498
+msgid "Unknown rela relocation: %llu\n"
+msgstr ""
+
+#: arch/x86/kernel/machine_kexec_64.c:506
+msgid "Overflow in relocation type %d value 0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/mmconf-fam10h_64.c:208
+msgid "Enable MMCONFIG on AMD Family 10h\n"
+msgstr ""
+
+#: arch/x86/kernel/module.c:132
+msgid "%s: Unknown relocation: %u\n"
+msgstr ""
+
+#: arch/x86/kernel/module.c:204
+msgid "%s: Unknown rela relocation: %llu\n"
+msgstr ""
+
+#: arch/x86/kernel/module.c:212
+msgid ""
+"x86/modules: Skipping invalid relocation target, existing value is nonzero "
+"for type %d, loc %p, val %Lx\n"
+msgstr ""
+
+#: arch/x86/kernel/module.c:217
+msgid "overflow in relocation type %d val %Lx\n"
+msgstr ""
+
+#: arch/x86/kernel/module.c:219
+msgid "`%s' likely not compiled with -mcmodel=kernel\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:70
+msgid "Processor #%d%s\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:79
+msgid "Bus #%d is %s\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:90
+msgid ""
+"MP table busid value (%d) for bustype %s is too large, max. supported is %d\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:112
+msgid "Unknown bustype %s - ignoring\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:155
+msgid "MPTABLE: bad signature [%c%c%c%c]!\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:161
+msgid "MPTABLE: checksum error!\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:165
+msgid "MPTABLE: bad table version (%d)!!\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:169
+msgid "MPTABLE: null local APIC address!\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:174
+msgid "MPTABLE: OEM ID: %s\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:179
+msgid "MPTABLE: Product ID: %s\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:181
+msgid "MPTABLE: APIC at: 0x%X\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:194
+msgid "Your mptable is wrong, contact your HW vendor!\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:195
+msgid "type %x\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:262
+msgid "MPTABLE: no processors registered!\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:298
+msgid "ISA/PCI bus type with no IRQ information... falling back to ELCR\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:302
+msgid "ELCR contains invalid data... not using ELCR\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:304
+msgid "Using ELCR to identify PCI interrupts\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:356
+msgid ""
+"???\n"
+"Unknown standard configuration %d\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:446
+msgid "  mpc: %lx-%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:467
+msgid "BIOS bug, MP table errors detected!...\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:468
+msgid "... disabling SMP support. (tell your hw vendor)\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:486
+msgid ""
+"BIOS bug, no explicit IRQ entries, using default mptable. (tell your hw "
+"vendor)\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:525
+msgid "MPTABLE: error mapping MP table\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:529
+msgid "Intel MultiProcessor Specification v1.%d\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:533
+msgid "    IMCR and PIC compatibility mode.\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:536
+msgid "    Virtual Wire compatibility mode.\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:552
+msgid "Default MP configuration #%d\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:564
+msgid "Processors: %d\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:583
+msgid "Scan for SMP in [mem %#010lx-%#010lx]\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:601
+msgid "found SMP MP-table at [mem %#010lx-%#010lx] mapped at [%p]\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:706
+msgid "OLD "
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:712
+msgid "NEW "
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:756
+msgid "mpc_length %x\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:795
+msgid "*NEW* found\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:872
+msgid "MPTABLE: mpf early_memremap() failed\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:888
+msgid "MPTABLE: mpc early_memremap() failed\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:895
+msgid "mpf: %llx\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:896
+msgid "physptr: %x\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:900
+msgid "mpc_new_length is %ld, please use alloc_mptable=8k\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:912
+msgid "mpc is readonly, please try alloc_mptable instead\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:915
+msgid "use in-position replacing\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:919
+msgid "MPTABLE: new mpc early_memremap() failed\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:933
+msgid "MPTABLE: new mpf early_memremap() failed\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:936
+msgid "mpf new: %x\n"
+msgstr ""
+
+#: arch/x86/kernel/mpparse.c:944
+msgid "physptr new: %x\n"
+msgstr ""
+
+#: arch/x86/kernel/msr.c:208
+msgid "unable to get major %d for msr\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi.c:89
+msgid "unknown_nmi_panic"
+msgstr ""
+
+#: arch/x86/kernel/nmi.c:221
+msgid "NMI: PCI system error (SERR) for reason %02x on CPU %d.\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi.c:225
+msgid "NMI: Not continuing"
+msgstr ""
+
+#: arch/x86/kernel/nmi.c:227
+msgid "Dazed and confused, but trying to continue\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi.c:250
+msgid "NMI IOCK error: Not continuing"
+msgstr ""
+
+#: arch/x86/kernel/nmi.c:294
+msgid "Uhhuh. NMI received for unknown reason %02x on CPU %d.\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi.c:297
+msgid "Do you have a strange power saving mode enabled?\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:122
+msgid "FAILED |"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:124
+msgid "TIMEOUT|"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:126
+msgid "ERROR  |"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:130
+msgid "  ok  |"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:139
+msgid "%12s:"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:149
+msgid "----------------\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:150
+msgid "| NMI testsuite:\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:151
+msgid "--------------------\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:164
+msgid "BUG: %3d unexpected failures (out of %3d) - debugging disabled! |\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:166
+msgid "-----------------------------------------------------------------\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:169
+msgid "%3d out of %3d testcases failed, as expected. |\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:171
+msgid "----------------------------------------------------\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:174
+msgid "All %3d testcases failed, as expected. |\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:176
+msgid "----------------------------------------\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:179
+msgid "Good, all %3d testcases passed! |\n"
+msgstr ""
+
+#: arch/x86/kernel/nmi_selftest.c:181
+msgid "---------------------------------\n"
+msgstr ""
+
+#: arch/x86/kernel/paravirt.c:70
+msgid "Booting paravirtualized kernel on %s\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:24
+msgid "Calgary: "
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:252
+msgid "IOMMU full\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:255
+msgid "Calgary: fix the allocator.\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:278
+msgid "failed to allocate %u pages in iommu %p\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:573
+msgid "PCI bus not quiesced, continuing anyway\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:596
+msgid "Calgary: CalIOC2 bus 0x%x entering tce cache blast "
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:602
+msgid "1a. read 0x%x [LE] from %p\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:604
+msgid "1b. writing 0x%x [LE] to %p\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:608
+msgid "2a. starting to poll split queues\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:615
+msgid "CalIOC2: PCI bus not quiesced, continuing anyway\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:620
+msgid "3. read 0x%x [LE] from %p\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:627
+msgid "CalIOC2: too many SoftStopFaults, aborting TCE cache flush sequence!\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:634
+msgid "5a. slamming into HardStop by reading %p\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:636
+msgid "5b. read 0x%x [LE] from %p\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:639
+msgid "5c. read 0x%x [LE] from %p (debug)\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:642
+msgid "6. invalidating TCE cache\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:647
+msgid "7a. Re-reading PMCR\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:650
+msgid "7b. read 0x%x [LE] from %p\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:653
+msgid "8a. removing HardStop from PMCR\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:656
+msgid "8b. writing 0x%x [LE] to %p\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:659
+msgid "8c. read 0x%x [LE] from %p\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:849
+msgid "DMA error on Calgary PHB 0x%x, 0x%08x@CSR 0x%08x@PLSSR\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:876
+msgid "DMA error on CalIOC2 PHB 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:878
+msgid "0x%08x@CSR 0x%08x@PLSSR 0x%08x@CSMR 0x%08x@MCK\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:888
+msgid "0x%08x@0x%lx "
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:895
+msgid "Calgary: 0x%08x@0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1007
+msgid "Calgary: enabling translation on %s PHB %#x\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1010
+msgid "Calgary: errant DMAs will now be prevented on this "
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1037
+msgid "Calgary: disabling translation on PHB %#x!\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1071
+msgid "Calgary: IEEEE, dev %p has "
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1366
+msgid "PCI-DMA: Using Calgary IOMMU\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1370
+msgid "PCI-DMA: Calgary init failed %d, "
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1400
+msgid "Calgary: detecting Calgary via BIOS EBDA area\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1422
+msgid "Calgary: Unable to locate Rio Grande table "
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1429
+msgid "Calgary: build_detail_arrays ret %d\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1465
+msgid "Calgary: finished detection, Calgary %s\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1471
+msgid "PCI-DMA: Calgary IOMMU detected.\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1472
+msgid "PCI-DMA: Calgary TCE table spec is %d\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1531
+msgid "Calgary: disabling "
+msgstr ""
+
+#: arch/x86/kernel/pci-calgary_64.c:1582
+msgid "Calgary: fixing up tce spaces\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-dma.c:116
+msgid "panic"
+msgstr ""
+
+#: arch/x86/kernel/pci-dma.c:118
+msgid "nopanic"
+msgstr ""
+
+#: arch/x86/kernel/pci-iommu_table.c:59
+msgid ""
+"CYCLIC DEPENDENCY FOUND! %pS depends on %pS and vice-versa. BREAKING IT.\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-iommu_table.c:69
+msgid "EXECUTION ORDER INVALID! %pS should be called before %pS!\n"
+msgstr ""
+
+#: arch/x86/kernel/pci-swiotlb.c:78
+msgid "PCI-DMA: "
+msgstr ""
+
+#: arch/x86/kernel/process.c:629
+msgid "WARNING: polling idle and HT enabled, performance may degrade\n"
+msgstr ""
+
+#: arch/x86/kernel/process.c:635
+msgid "using AMD E400 aware idle routine\n"
+msgstr ""
+
+#: arch/x86/kernel/process.c:638
+msgid "using mwait in idle threads\n"
+msgstr ""
+
+#: arch/x86/kernel/process.c:647
+msgid "Switch to broadcast mode on CPU%d\n"
+msgstr ""
+
+#: arch/x86/kernel/process.c:674
+msgid "System has AMD C1E enabled\n"
+msgstr ""
+
+#: arch/x86/kernel/process.c:683
+msgid "using polling idle threads\n"
+msgstr ""
+
+#: arch/x86/kernel/process_32.c:78
+msgid "EIP: %pS\n"
+msgstr ""
+
+#: arch/x86/kernel/process_32.c:79
+msgid "EFLAGS: %08lx CPU: %d\n"
+msgstr ""
+
+#: arch/x86/kernel/process_32.c:82
+msgid "EAX: %08lx EBX: %08lx ECX: %08lx EDX: %08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_32.c:84
+msgid "ESI: %08lx EDI: %08lx EBP: %08lx ESP: %08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_32.c:86
+msgid " DS: %04x ES: %04x FS: %04x GS: %04x SS: %04x\n"
+msgstr ""
+
+#: arch/x86/kernel/process_32.c:96
+msgid "CR0: %08lx CR2: %08lx CR3: %08lx CR4: %08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_32.c:111
+msgid "DR0: %08lx DR1: %08lx DR2: %08lx DR3: %08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_32.c:113
+msgid "DR6: %08lx DR7: %08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:74
+msgid " ORIG_RAX: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:78
+msgid "RAX: %016lx RBX: %016lx RCX: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:80
+msgid "RDX: %016lx RSI: %016lx RDI: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:82
+msgid "RBP: %016lx R08: %016lx R09: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:84
+msgid "R10: %016lx R11: %016lx R12: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:86
+msgid "R13: %016lx R14: %016lx R15: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:107
+msgid "FS:  %016lx(%04x) GS:%016lx(%04x) knlGS:%016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:109
+msgid "CS:  %04x DS: %04x ES: %04x CR0: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:111
+msgid "CR2: %016lx CR3: %016lx CR4: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:124
+msgid "DR0: %016lx DR1: %016lx DR2: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:126
+msgid "DR3: %016lx DR6: %016lx DR7: %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:131
+msgid "PKRU: %08x\n"
+msgstr ""
+
+#: arch/x86/kernel/process_64.c:139
+msgid "WARNING: dead process %s still has LDT? <%p/%d>\n"
+msgstr ""
+
+#: arch/x86/kernel/quirks.c:90
+msgid "Force enabled HPET at resume\n"
+msgstr ""
+
+#: arch/x86/kernel/quirks.c:107
+msgid "RCBA disabled; "
+msgstr ""
+
+#: arch/x86/kernel/quirks.c:115
+msgid "ioremap failed; "
+msgstr ""
+
+#: arch/x86/kernel/quirks.c:127
+msgid "Force enabled HPET at "
+msgstr ""
+
+#: arch/x86/kernel/quirks.c:181
+msgid "HPET not enabled in BIOS. "
+msgstr ""
+
+#: arch/x86/kernel/quirks.c:225
+msgid "HPET at 0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/quirks.c:253
+msgid "Failed to force enable HPET\n"
+msgstr ""
+
+#: arch/x86/kernel/quirks.c:414
+msgid "Force enabled HPET at 0x%lx\n"
+msgstr ""
+
+#: arch/x86/kernel/reboot.c:63
+msgid "%s series board detected. Selecting %s-method for reboots.\n"
+msgstr ""
+
+#: arch/x86/kernel/reboot.c:148
+msgid "%s series board detected. Selecting %s-method for reboot.\n"
+msgstr ""
+
+#: arch/x86/kernel/reboot.c:584
+msgid "EFI capsule is pending, forcing EFI reboot.\n"
+msgstr ""
+
+#: arch/x86/kernel/reboot.c:701
+msgid "machine restart\n"
+msgstr ""
+
+#: arch/x86/kernel/rtc.c:51
+msgid "%s: RTC write failed with error %d\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:320
+msgid "Cannot find place for new RAMDISK of size %lld\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:328
+msgid "Allocated new RAMDISK: [mem %#010llx-%#010llx]\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:333
+msgid "Move RAMDISK from [mem %#010llx-%#010llx] to"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:368
+msgid "initrd too large to handle, "
+msgstr ""
+
+#: arch/x86/kernel/setup.c:372
+msgid "RAMDISK: [mem %#010llx-%#010llx]\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:495
+msgid "Cannot reserve %ldMB crashkernel low memory, please try smaller size.\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:502
+msgid "%s: Error reserving crashkernel low memblock.\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:506
+msgid ""
+"Reserving %ldMB of low memory at %ldMB for crashkernel (System low RAM: "
+"%ldMB)\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:538
+msgid "Ignoring crashkernel for a Xen PV domain\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:554
+msgid "crashkernel reservation failed - No suitable area found.\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:565
+msgid "crashkernel reservation failed - memory is in use.\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:571
+msgid "%s: Error reserving crashkernel memblock.\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:580
+msgid ""
+"Reserving %ldMB of memory at %ldMB for crashkernel (System RAM: %ldMB)\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:688
+msgid "reserving inaccessible SNB gfx pages\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:698
+msgid "failed to reserve 0x%08lx\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:754
+msgid ".text .data .bss are not marked as E820_TYPE_RAM!\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:795
+msgid "Kernel Offset: 0x%lx from 0x%lx (relocation range: 0x%lx-0x%lx)\n"
+msgstr ""
+"Przesunięcie jądra: 0x%lx z 0x%lx (zakres przemiejscowienia: 0x%lx-0x%lx)\n"
+
+#: arch/x86/kernel/setup.c:801
+msgid "Kernel Offset: disabled\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:856
+msgid "Command line: %s\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:1028
+msgid "fixed physical RAM map:\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:1120
+msgid "initial memory mapped: [mem 0x00000000-%#010lx]\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:1160
+msgid "Secure boot disabled\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:1163
+msgid "Secure boot enabled\n"
+msgstr ""
+
+#: arch/x86/kernel/setup.c:1166
+msgid "Secure boot could not be determined\n"
+msgstr ""
+
+#: arch/x86/kernel/setup_percpu.c:109
+msgid "cpu %d has no node %d or node-local memory\n"
+msgstr ""
+
+#: arch/x86/kernel/setup_percpu.c:111
+msgid "per cpu data for cpu%d %lu bytes at %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/setup_percpu.c:116
+msgid "per cpu data for cpu%d %lu bytes on node%d at %016lx\n"
+msgstr ""
+
+#: arch/x86/kernel/setup_percpu.c:171
+msgid "NR_CPUS:%d nr_cpumask_bits:%d nr_cpu_ids:%u nr_node_ids:%d\n"
+msgstr ""
+
+#: arch/x86/kernel/setup_percpu.c:207
+msgid "%s allocator failed (%d), falling back to page size\n"
+msgstr ""
+
+#: arch/x86/kernel/setup_percpu.c:215
+msgid "cannot initialize percpu area (err=%d)"
+msgstr ""
+
+#: arch/x86/kernel/signal.c:845
+msgid "%s"
+msgstr ""
+
+#: arch/x86/kernel/smp.c:235
+msgid "Shutting down cpus with NMI\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:200
+msgid "Stack at about %p\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:309
+msgid "CPU %u Converting physical %u to logical package %u\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:582
+msgid "Before bogomips\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:586
+msgid "Total of %d processors activated (%lu.%02lu BogoMIPS)\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:591
+msgid "Before bogocount - setting activated=1\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:601
+msgid "Inquiring remote APIC 0x%x...\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:604
+msgid "... APIC 0x%x %s: "
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:611
+msgid "a previous APIC delivery may have failed\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:624
+msgid "%08x\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:627
+msgid "failed\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:686
+msgid "Waiting for send to finish...\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:699
+msgid "NMI sent\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:702
+msgid "APIC never delivered???\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:704
+msgid "APIC delivery error (%lx)\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:726
+msgid "Asserting INIT\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:742
+msgid "Deasserting INIT\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:767
+msgid "#startup loops: %d\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:770
+msgid "Sending STARTUP #%d\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:774
+msgid "After apic_write\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:794
+msgid "Startup point 1\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:813
+msgid "After Startup\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:837
+msgid "x86: Booting SMP configuration:\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:845
+msgid ".... node %*s#%d, CPUs:  "
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:851
+msgid "%*s"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:853
+msgid "%*s#%d"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:856
+msgid "Booting Node %d Processor %d APIC 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:975
+msgid "Setting warm reset code and vector.\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1064
+msgid "++++++++++++++++++++=_---CPU UP  %u\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1069
+msgid "%s: bad cpu %d\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1077
+msgid "do_boot_cpu %d Already started\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1099
+msgid "do_boot_cpu failed(%d) to wakeup CPU#%u\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1143
+msgid "SMP disabled\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1170
+msgid "More than 8 CPUs detected - skipping them\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1192
+msgid "weird, boot CPU (#%d) not listed by the BIOS\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1287
+msgid "CPU0: "
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1333
+msgid "Max logical packages: %u\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1338
+msgid "Boot done\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1386
+msgid "Boot CPU (id %d) not listed by BIOS\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1415
+msgid "%d Processors exceeds NR_CPUS limit of %u\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1424
+msgid "%d Processors exceeds max_cpus limit of %u\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1431
+msgid "Allowing %d CPUs, %d hotplug CPUs\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1531
+msgid "CPU %u is now offline\n"
+msgstr ""
+
+#: arch/x86/kernel/smpboot.c:1533
+msgid "CPU %u didn't die...\n"
+msgstr ""
+
+#: arch/x86/kernel/sysfb_efi.c:169
+msgid "efifb: dmi detected %s - framebuffer at 0x%08x "
+msgstr ""
+
+#: arch/x86/kernel/sysfb_simplefb.c:80
+msgid "sysfb: inaccessible VRAM base\n"
+msgstr ""
+
+#: arch/x86/kernel/sysfb_simplefb.c:98
+msgid "sysfb: VRAM smaller than advertised\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:57
+msgid "tboot: "
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:72
+msgid "non-0 tboot_addr but it is not of type E820_TYPE_RESERVED\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:80
+msgid "tboot at 0x%llx is invalid\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:86
+msgid "tboot version is invalid: %u\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:91
+msgid "found shared page at phys addr 0x%llx:\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:93
+msgid "version: %d\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:94
+msgid "log_addr: 0x%08x\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:95
+msgid "shutdown_entry: 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:96
+msgid "tboot_base: 0x%08x\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:97
+msgid "tboot_size: 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:178
+msgid "tboot: Error mapping tboot pages (mfns) @ 0x%x, 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:190
+msgid "tboot: Too many MAC regions\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:304
+msgid "unsupported sleep state 0x%x\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:317
+msgid ""
+"tboot is not able to suspend on platforms with reduced hardware sleep "
+"(ACPIv5)"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:335
+msgid "tboot wait for APs timeout\n"
+msgstr ""
+
+#: arch/x86/kernel/tboot.c:531
+msgid "Forcing Intel-IOMMU to enabled\n"
+msgstr ""
+
+#: arch/x86/kernel/tce_64.c:115
+msgid "Calgary: cannot allocate bitmap\n"
+msgstr ""
+
+#: arch/x86/kernel/tce_64.c:140
+msgid "Calgary: dev %p has sysdata->iommu %p\n"
+msgstr ""
+
+#: arch/x86/kernel/tce_64.c:147
+msgid "Calgary: error allocating iommu_table\n"
+msgstr ""
+
+#: arch/x86/kernel/time.c:76
+msgid "Failed to register legacy timer interrupt\n"
+msgstr ""
+
+#: arch/x86/kernel/topology.c:77
+msgid "Can't offline CPU%d.\n"
+msgstr ""
+
+#: arch/x86/kernel/topology.c:85
+msgid "Can't online CPU%d.\n"
+msgstr ""
+
+#: arch/x86/kernel/traps.c:273
+msgid "%s[%d] trap %s ip:%lx sp:%lx error:%lx"
+msgstr ""
+
+#: arch/x86/kernel/traps.c:326
+msgid "BUG: stack guard page was hit at %p (stack is %p..%p)\n"
+msgstr ""
+
+#: arch/x86/kernel/traps.c:568
+msgid "%s[%d] general protection ip:%lx sp:%lx error:%lx"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:250
+msgid "Kernel compiled with CONFIG_X86_TSC, cannot disable TSC completely\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:566
+msgid "Fast TSC calibration failed\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:585
+msgid "Fast TSC calibration using PIT\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:766
+msgid "PIT calibration matches %s. %d loops\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:789
+msgid "Unable to calibrate against PIT\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:793
+msgid "No reference (HPET/PMTIMER) available\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:799
+msgid "HPET/PMTIMER calibration failed\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:804
+msgid "using %s reference calibration\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:812
+msgid "Using PIT calibration value\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:818
+msgid "HPET/PMTIMER calibration failed. Using PIT calibration.\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:827
+msgid "PIT calibration deviates from %s: %lu %lu\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:1043
+msgid "Marking TSC unstable due to clocksource watchdog\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:1101
+msgid "Marking TSC unstable due to %s\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:1284
+msgid "Refined TSC clocksource calibration: %lu.%03lu MHz\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:1391
+msgid "Detected %lu.%03lu MHz processor\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc.c:1396
+msgid "Detected %lu.%03lu MHz TSC"
+msgstr ""
+
+#: arch/x86/kernel/tsc_sync.c:44
+msgid "tsc: Marking TSC async resets true due to %s\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc_sync.c:73
+msgid "TSC ADJUST differs: CPU%u %lld --> %lld. Restoring\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc_sync.c:100
+msgid "TSC ADJUST: CPU%u: %lld force to 0\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc_sync.c:105
+msgid "TSC ADJUST: CPU%u: %lld NOT forced to 0\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc_sync.c:181
+msgid "TSC ADJUST differs within socket(s), fixing all errors\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc_sync.c:359
+msgid "TSC synchronization [CPU#%d -> CPU#%d]: passed\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc_sync.c:366
+msgid "TSC synchronization [CPU#%d -> CPU#%d]:\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc_sync.c:368
+msgid "Measured %Ld cycles TSC warp between CPUs, "
+msgstr ""
+
+#: arch/x86/kernel/tsc_sync.c:371
+msgid "TSC warped randomly between CPUs\n"
+msgstr ""
+
+#: arch/x86/kernel/tsc_sync.c:485
+msgid "TSC ADJUST compensate: CPU%u observed %lld warp. Adjust: %lld\n"
+msgstr ""
+
+#: arch/x86/kernel/umip.c:16
+msgid "umip: "
+msgstr ""
+
+#: arch/x86/kernel/umip.c:130
+msgid "%s[%d] ip:%lx sp:%lx: %pV"
+msgstr ""
+
+#: arch/x86/kernel/umip.c:289
+msgid "segfault in emulation. error%x\n"
+msgstr ""
+
+#: arch/x86/kernel/umip.c:377
+msgid "%s instruction cannot be used by applications.\n"
+msgstr ""
+
+#: arch/x86/kernel/umip.c:384
+msgid "For now, expensive software emulation returns the result.\n"
+msgstr ""
+
+#: arch/x86/kernel/unwind_frame.c:42
+msgid "unwind stack type:%d next_sp:%p mask:0x%lx graph_idx:%d\n"
+msgstr ""
+
+#: arch/x86/kernel/unwind_frame.c:60
+msgid "%p: %0*x ...\n"
+msgstr ""
+
+#: arch/x86/kernel/unwind_frame.c:65
+msgid "%p: %0*lx (%pB)\n"
+msgstr ""
+
+#: arch/x86/kernel/unwind_orc.c:9
+msgid "WARNING: "
+msgstr ""
+
+#: arch/x86/kernel/uprobes.c:1085
+msgid "uprobe: return address clobbered: pid=%d, %%sp=%#lx, "
+msgstr ""
+
+#: arch/x86/kernel/vm86_32.c:110
+msgid "no user_vm86: BAD\n"
+msgstr ""
+
+#: arch/x86/kernel/vm86_32.c:119
+msgid "could not access userspace vm86 info\n"
+msgstr ""
+
+#: arch/x86/kernel/vm86_32.c:266
+msgid ""
+"Denied a call to vm86(old) from %s[%d] (uid: %d).  Set the vm.mmap_min_addr "
+"sysctl to 0 and/or adjust LSM mmap_min_addr policy to enable vm86 if you are "
+"using a vm86-based DOS emulator.\n"
+msgstr ""
+
+#: arch/x86/kernel/vsmp_64.c:96
+msgid "vSMP CTL: capabilities:0x%08x  control:0x%08x\n"
+msgstr ""
+
+#: arch/x86/kernel/vsmp_64.c:122
+msgid "vSMP CTL: control set to:0x%08x\n"
+msgstr ""
+
+#: arch/x86/kernel/vsmp_64.c:195
+msgid "vSMP CTL: Capping CPUs to %d (CONFIG_X86_VSMP is unset)\n"
+msgstr ""

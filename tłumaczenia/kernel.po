@@ -1,0 +1,1473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: kernel/acct.c:116
+msgid "Process accounting paused\n"
+msgstr ""
+
+#: kernel/acct.c:123
+msgid "Process accounting resumed\n"
+msgstr ""
+
+#: kernel/async.c:121
+msgid "calling  %lli_%pF @ %i\n"
+msgstr ""
+
+#: kernel/async.c:130
+msgid "initcall %lli_%pF returned 0 after %lld usecs\n"
+msgstr ""
+
+#: kernel/async.c:291
+msgid "async_waiting @ %i\n"
+msgstr ""
+
+#: kernel/async.c:301
+msgid "async_continuing @ %i after %lli usec\n"
+msgstr ""
+
+#: kernel/audit.c:44
+msgid ": "
+msgstr ""
+
+#: kernel/audit.c:319
+msgid "%s\n"
+msgstr ""
+
+#: kernel/audit.c:322
+msgid "audit: %s\n"
+msgstr ""
+
+#: kernel/audit.c:388
+msgid "audit_lost=%u audit_rate_limit=%u audit_backlog_limit=%u\n"
+msgstr ""
+
+#: kernel/audit.c:548
+msgid "type=%d %s\n"
+msgstr ""
+
+#: kernel/audit.c:1547
+msgid "cannot initialize netlink socket in namespace"
+msgstr ""
+
+#: kernel/audit.c:1597
+msgid "initializing netlink subsys (%s)\n"
+msgstr ""
+
+#: kernel/audit.c:1606
+msgid "audit: failed to start the kauditd thread (%d)\n"
+msgstr ""
+
+#: kernel/audit.c:1628
+msgid "audit: invalid 'audit' parameter value (%s)\n"
+msgstr ""
+
+#: kernel/audit.c:1635
+msgid "audit: error setting audit state (%d)\n"
+msgstr ""
+
+#: kernel/audit.c:1651
+msgid "audit_backlog_limit: "
+msgstr ""
+
+#: kernel/audit.c:1653
+msgid "using default of %u, unable to parse %s\n"
+msgstr ""
+
+#: kernel/audit.c:1659
+msgid "%d\n"
+msgstr ""
+
+#: kernel/audit.c:1787
+msgid "audit_backlog=%d > audit_backlog_limit=%d\n"
+msgstr ""
+
+#: kernel/audit.c:2229
+msgid "error in audit_log_task_context"
+msgstr ""
+
+#: kernel/audit_fsnotify.c:212
+msgid "cannot create audit fsnotify group"
+msgstr ""
+
+#: kernel/audit_tree.c:741
+msgid "cannot start thread audit_prune_tree"
+msgstr ""
+
+#: kernel/audit_tree.c:1025
+msgid "cannot initialize fsnotify group for rectree watches"
+msgstr ""
+
+#: kernel/audit_watch.c:283
+msgid "error updating watch, skipping"
+msgstr ""
+
+#: kernel/audit_watch.c:298
+msgid "error updating watch, removing"
+msgstr ""
+
+#: kernel/auditfilter.c:260
+msgid "AUDIT_FILTER_ENTRY is deprecated\n"
+msgstr ""
+
+#: kernel/auditfilter.c:271
+msgid "AUDIT_POSSIBLE is deprecated\n"
+msgstr ""
+
+#: kernel/auditfilter.c:521
+msgid "audit rule for LSM '%s' is invalid\n"
+msgstr ""
+
+#: kernel/auditfilter.c:1399
+msgid "error updating LSM filters"
+msgstr ""
+
+#: kernel/auditsc.c:1033
+msgid "out of memory for argv string"
+msgstr ""
+
+#: kernel/auditsc.c:1460
+msgid "error converting sid to string"
+msgstr ""
+
+#: kernel/auditsc.c:1613
+msgid "out of memory, audit has lost a tree reference\n"
+msgstr ""
+
+#: kernel/backtracetest.c:21
+msgid "Testing a backtrace from process context.\n"
+msgstr ""
+
+#: kernel/backtracetest.c:22
+msgid "The following trace is a kernel self test and not a bug!\n"
+msgstr ""
+
+#: kernel/backtracetest.c:39
+msgid "Testing a backtrace from irq context.\n"
+msgstr ""
+
+#: kernel/backtracetest.c:53
+msgid "Testing a saved backtrace.\n"
+msgstr ""
+
+#: kernel/backtracetest.c:67
+msgid "Saved backtrace test skipped.\n"
+msgstr ""
+
+#: kernel/backtracetest.c:73
+msgid "====[ backtrace testing ]===========\n"
+msgstr ""
+
+#: kernel/backtracetest.c:79
+msgid "====[ end of backtrace testing ]====\n"
+msgstr ""
+
+#: kernel/capability.c:49
+msgid "warning: `%s' uses 32-bit capabilities (legacy support in use)\n"
+msgstr ""
+
+#: kernel/capability.c:73
+msgid ""
+"warning: `%s' uses deprecated v2 capabilities in a way that may be insecure\n"
+msgstr ""
+
+#: kernel/capability.c:370
+msgid "capable() called with invalid cap=%u\n"
+msgstr ""
+
+#: kernel/cpu.c:1042
+msgid ""
+"can't online cpu %d because it is not configured as may-hotadd at boot time\n"
+msgstr ""
+
+#: kernel/cpu.c:1045
+msgid "please check additional_cpus= boot parameter\n"
+msgstr ""
+
+#: kernel/cpu.c:1089
+msgid "Disabling non-boot CPUs ...\n"
+msgstr ""
+
+#: kernel/cpu.c:1099
+msgid "Error taking CPU%d down: %d\n"
+msgstr ""
+
+#: kernel/cpu.c:1107
+msgid "Non-boot CPUs are not disabled\n"
+msgstr ""
+
+#: kernel/cpu.c:1138
+msgid "Enabling non-boot CPUs ...\n"
+msgstr ""
+
+#: kernel/cpu.c:1147
+msgid "CPU%d is up\n"
+msgstr ""
+
+#: kernel/cpu.c:1150
+msgid "Error taking CPU%d up: %d\n"
+msgstr ""
+
+#: kernel/crash_core.c:51
+msgid "crashkernel: Memory value expected\n"
+msgstr ""
+
+#: kernel/crash_core.c:56
+msgid "crashkernel: '-' expected\n"
+msgstr ""
+
+#: kernel/crash_core.c:70
+msgid "crashkernel: end <= start\n"
+msgstr ""
+
+#: kernel/crash_core.c:76
+msgid "crashkernel: ':' expected\n"
+msgstr ""
+
+#: kernel/crash_core.c:83
+msgid "Memory value expected\n"
+msgstr ""
+
+#: kernel/crash_core.c:88
+msgid "crashkernel: invalid size\n"
+msgstr ""
+
+#: kernel/crash_core.c:106
+msgid "Memory value expected after '@'\n"
+msgstr ""
+
+#: kernel/crash_core.c:111
+msgid "crashkernel size resulted in zero bytes\n"
+msgstr ""
+
+#: kernel/crash_core.c:131
+msgid "crashkernel: memory value expected\n"
+msgstr ""
+
+#: kernel/crash_core.c:138
+msgid "crashkernel: unrecognized char: %c\n"
+msgstr ""
+
+#: kernel/crash_core.c:384
+msgid "Memory allocation for vmcoreinfo_data failed\n"
+msgstr ""
+
+#: kernel/crash_core.c:393
+msgid "Memory allocation for vmcoreinfo_note failed\n"
+msgstr ""
+
+#: kernel/cred.c:24
+msgid "[%-5.5s%5u] "
+msgstr ""
+
+#: kernel/cred.c:105
+msgid "CRED: put_cred_rcu() sees %p with"
+msgstr ""
+
+#: kernel/cred.c:112
+msgid "CRED: put_cred_rcu() sees %p with usage %d\n"
+msgstr ""
+
+#: kernel/cred.c:729
+msgid "CRED: %s credentials: %p %s%s%s\n"
+msgstr ""
+
+#: kernel/cred.c:734
+msgid "CRED: ->magic=%x, put_addr=%p\n"
+msgstr ""
+
+#: kernel/cred.c:736
+msgid "CRED: ->usage=%d, subscr=%d\n"
+msgstr ""
+
+#: kernel/cred.c:739
+msgid "CRED: ->*uid = { %d,%d,%d,%d }\n"
+msgstr ""
+
+#: kernel/cred.c:744
+msgid "CRED: ->*gid = { %d,%d,%d,%d }\n"
+msgstr ""
+
+#: kernel/cred.c:750
+msgid "CRED: ->security is %p\n"
+msgstr ""
+
+#: kernel/cred.c:754
+msgid "CRED: ->security {%x, %x}\n"
+msgstr ""
+
+#: kernel/cred.c:765
+msgid "CRED: Invalid credentials\n"
+msgstr ""
+
+#: kernel/cred.c:766
+msgid "CRED: At %s:%u\n"
+msgstr ""
+
+#: kernel/cred.c:792
+msgid "CRED: Invalid process credentials\n"
+msgstr ""
+
+#: kernel/cred.c:799
+msgid "CRED: Effective creds == Real creds\n"
+msgstr ""
+
+#: kernel/dma.c:90
+msgid "Trying to free DMA%d\n"
+msgstr ""
+
+#: kernel/dma.c:95
+msgid "Trying to free free DMA%d\n"
+msgstr ""
+
+#: kernel/exit.c:577
+msgid "Attempted to kill init! exitcode=0x%08x\n"
+msgstr "Usilowano zabic wstepniaka! kod wyjscia=0x%08x\n"
+
+#: kernel/exit.c:752
+msgid "%s (%d) used greatest stack depth: %lu bytes left\n"
+msgstr ""
+
+#: kernel/exit.c:773
+msgid "Aiee, killing interrupt handler!"
+msgstr ""
+
+#: kernel/exit.c:775
+msgid "Attempted to kill the idle task!"
+msgstr ""
+
+#: kernel/exit.c:795
+msgid "Fixing recursive fault but reboot is needed!\n"
+msgstr ""
+
+#: kernel/exit.c:824
+msgid "note: %s[%d] exited with preempt_count %d\n"
+msgstr ""
+
+#: kernel/exit.c:1763
+msgid "Oops failed to kill thread"
+msgstr ""
+
+#: kernel/extable.c:49
+msgid "Sorting __ex_table...\n"
+msgstr ""
+
+#: kernel/fork.c:572
+msgid "BUG: Bad rss-counter state "
+msgstr ""
+
+#: kernel/fork.c:577
+msgid "BUG: non-zero pgtables_bytes on freeing mm: %ld\n"
+msgstr ""
+
+#: kernel/freezer.c:65
+msgid "%s entered refrigerator\n"
+msgstr ""
+
+#: kernel/freezer.c:83
+msgid "%s left refrigerator\n"
+msgstr ""
+
+#: kernel/futex.c:1577
+msgid "futex_wake_op: %s tries to shift op by %d; fix this program\n"
+msgstr ""
+
+#: kernel/futex.c:2486
+msgid "fixup_owner: ret = %d pi-mutex: %p "
+msgstr ""
+
+#: kernel/hung_task.c:64
+msgid "hung_task_panic="
+msgstr ""
+
+#: kernel/hung_task.c:114
+msgid "INFO: task %s:%d blocked for more than %ld seconds.\n"
+msgstr ""
+
+#: kernel/hung_task.c:116
+msgid "      %s %s %.*s\n"
+msgstr ""
+
+#: kernel/hung_task.c:120
+msgid "\\"
+msgstr ""
+
+#: kernel/hung_task.c:132
+msgid "hung_task: blocked tasks"
+msgstr ""
+
+#: kernel/kcov.c:1
+msgid "kcov: "
+msgstr ""
+
+#: kernel/kcov.c:430
+msgid "failed to create kcov in debugfs\n"
+msgstr ""
+
+#: kernel/kexec.c:85
+msgid "Could not allocate control_code_buffer\n"
+msgstr ""
+
+#: kernel/kexec.c:92
+msgid "Could not allocate swap buffer\n"
+msgstr ""
+
+#: kernel/kexec_core.c:513
+msgid "Could not allocate vmcoreinfo buffer\n"
+msgstr ""
+
+#: kernel/kexec_core.c:518
+msgid "Could not vmap vmcoreinfo buffer\n"
+msgstr ""
+
+#: kernel/kexec_core.c:1095
+msgid "Memory allocation for saving cpu register states failed\n"
+msgstr ""
+
+#: kernel/kexec_core.c:1162
+msgid "Starting new kernel\n"
+msgstr ""
+
+#: kernel/kexec_file.c:98
+msgid "kernel loader does not support signature verification.\n"
+msgstr ""
+
+#: kernel/kexec_file.c:125
+msgid "RELA relocation unsupported.\n"
+msgstr ""
+
+#: kernel/kexec_file.c:142
+msgid "REL relocation unsupported.\n"
+msgstr ""
+
+#: kernel/kexec_file.c:214
+msgid "kernel signature verification failed.\n"
+msgstr ""
+
+#: kernel/kexec_file.c:217
+msgid "kernel signature verification successful.\n"
+msgstr ""
+
+#: kernel/kexec_file.c:382
+msgid "Loading segment %d: buf=0x%p bufsz=0x%zx mem=0x%lx memsz=0x%zx\n"
+msgstr ""
+
+#: kernel/kexec_file.c:987
+msgid "Symbol: %s has bad section index %d.\n"
+msgstr ""
+
+#: kernel/kexec_file.c:1036
+msgid "symbol %s size mismatch: expected %lu actual %u\n"
+msgstr ""
+
+#: kernel/kexec_file.c:1044
+msgid "symbol %s is in a bss section. Cannot %s\n"
+msgstr ""
+
+#: kernel/kexec_file.c:1220
+msgid ""
+"Crash PT_LOAD elf header. phdr=%p vaddr=0x%llx, paddr=0x%llx, sz=0x%llx "
+"e_phnum=%d p_offset=0x%llx\n"
+msgstr ""
+
+#: kernel/kmod.c:152
+msgid ""
+"request_module: kmod_concurrent_max (%u) close to 0 (max_modprobes: %u), for "
+"module %s, throttling..."
+msgstr ""
+
+#: kernel/kmod.c:159
+msgid ""
+"request_module: modprobe %s cannot be processed, kmod busy with %d threads "
+"for more than %d seconds now"
+msgstr ""
+
+#: kernel/kmod.c:163
+msgid "request_module: sigkill sent for modprobe %s, giving up"
+msgstr ""
+
+#: kernel/kprobes.c:713
+msgid "Warning: found a stray unused "
+msgstr ""
+
+#: kernel/kprobes.c:842
+msgid "Kprobes globally optimized\n"
+msgstr ""
+
+#: kernel/kprobes.c:874
+msgid "Kprobes globally unoptimized\n"
+msgstr ""
+
+#: kernel/kprobes.c:947
+msgid "Error: There should be no unused kprobe here.\n"
+msgstr ""
+
+#: kernel/kprobes.c:987
+msgid "Failed to arm kprobe-ftrace at %p (%d)\n"
+msgstr ""
+
+#: kernel/kprobes.c:994
+msgid "Failed to init kprobe-ftrace (%d)\n"
+msgstr ""
+
+#: kernel/kprobes.c:2173
+msgid "Dumping kprobe:\n"
+msgstr ""
+
+#: kernel/kprobes.c:2174
+msgid ""
+"Name: %s\n"
+"Address: %p\n"
+"Offset: %x\n"
+msgstr ""
+
+#: kernel/kprobes.c:2199
+msgid "Failed to find blacklist at %p\n"
+msgstr ""
+
+#: kernel/kprobes.c:2283
+msgid "kprobes: failed to populate blacklist: %d\n"
+msgstr ""
+
+#: kernel/kprobes.c:2284
+msgid "Please take care of using kprobes.\n"
+msgstr ""
+
+#: kernel/kprobes.c:2293
+msgid "kretprobe: lookup failed: %s\n"
+msgstr ""
+
+#: kernel/kprobes.c:2490
+msgid "Kprobes globally enabled, but failed to arm %d out of %d probes\n"
+msgstr ""
+
+#: kernel/kprobes.c:2493
+msgid "Kprobes globally enabled\n"
+msgstr ""
+
+#: kernel/kprobes.c:2533
+msgid "Kprobes globally disabled, but failed to disarm %d out of %d probes\n"
+msgstr ""
+
+#: kernel/kprobes.c:2536
+msgid "Kprobes globally disabled\n"
+msgstr ""
+
+#: kernel/module.c:527
+msgid "Symbol %s is being used by a non-GPL module, "
+msgstr ""
+
+#: kernel/module.c:535
+msgid "Symbol %s is marked as UNUSED, however this module is "
+msgstr ""
+
+#: kernel/module.c:537
+msgid "This symbol will go away in the future.\n"
+msgstr ""
+
+#: kernel/module.c:538
+msgid "Please evaluate if this is the right api to use and "
+msgstr ""
+
+#: kernel/module.c:597
+msgid "Failed to find symbol %s\n"
+msgstr ""
+
+#: kernel/module.c:645
+msgid "%s: per-cpu alignment %li > %li\n"
+msgstr ""
+
+#: kernel/module.c:652
+msgid "%s: Could not allocate %lu bytes percpu data\n"
+msgstr ""
+
+#: kernel/module.c:828
+msgid "%s uses %s!\n"
+msgstr ""
+
+#: kernel/module.c:832
+msgid "%s does not use %s!\n"
+msgstr ""
+
+#: kernel/module.c:847
+msgid "Allocating new usage for %s.\n"
+msgstr ""
+
+#: kernel/module.c:889
+msgid "%s unusing %s\n"
+msgstr ""
+
+#: kernel/module.c:995
+msgid "%s already dying\n"
+msgstr ""
+
+#: kernel/module.c:1269
+msgid "%s: %s: kernel tainted.\n"
+msgstr ""
+"%s: %s: jądro splugawione.\n"
+"t\n"
+
+#: kernel/module.c:1318
+msgid "Found checksum %X vs module %lX\n"
+msgstr ""
+
+#: kernel/module.c:1324
+msgid "%s: no symbol version for %s\n"
+msgstr ""
+
+#: kernel/module.c:1328
+msgid "%s: disagrees about version of symbol %s\n"
+msgstr ""
+
+#: kernel/module.c:1439
+msgid "%s: gave up waiting for init of module %s.\n"
+msgstr ""
+
+#: kernel/module.c:1760
+msgid "%s: module sysfs not initialized\n"
+msgstr ""
+
+#: kernel/module.c:1767
+msgid "%s: module is already loaded\n"
+msgstr ""
+
+#: kernel/module.c:2228
+msgid "%s: exports duplicate symbol %s"
+msgstr ""
+
+#: kernel/module.c:2259
+msgid "Common symbol: %s\n"
+msgstr ""
+
+#: kernel/module.c:2260
+msgid "%s: please compile with -fno-common\n"
+msgstr ""
+
+#: kernel/module.c:2267
+msgid "Absolute symbol: 0x%08lx\n"
+msgstr ""
+
+#: kernel/module.c:2287
+msgid "%s: Unknown symbol %s (err %li)\n"
+msgstr ""
+
+#: kernel/module.c:2380
+msgid "Core section allocation order:\n"
+msgstr ""
+
+#: kernel/module.c:2392
+msgid "\t%s\n"
+msgstr ""
+
+#: kernel/module.c:2413
+msgid "Init section allocation order:\n"
+msgstr ""
+
+#: kernel/module.c:2458
+msgid "%s: module license '%s' taints kernel.\n"
+msgstr ""
+
+#: kernel/module.c:2720
+msgid "dynamic debug error adding module: %s\n"
+msgstr ""
+
+#: kernel/module.c:2843
+msgid "%s: tainting kernel with TAINT_LIVEPATCH\n"
+msgstr ""
+
+#: kernel/module.c:2853
+msgid ""
+"%s: module is marked as livepatch module, but livepatch support is disabled"
+msgstr ""
+
+#: kernel/module.c:2867
+msgid "%s: loading module not compiled with retpoline compiler.\n"
+msgstr ""
+
+#: kernel/module.c:2915
+msgid "Module len %lu truncated\n"
+msgstr ""
+
+#: kernel/module.c:2983
+msgid "%s: No module found in object\n"
+msgstr ""
+
+#: kernel/module.c:2998
+msgid "%s: module has no symbols (stripped?)\n"
+msgstr ""
+
+#: kernel/module.c:3025
+msgid "%s: version magic '%s' should be '%s'\n"
+msgstr ""
+
+#: kernel/module.c:3032
+msgid "%s: loading out-of-tree module taints kernel.\n"
+msgstr ""
+
+#: kernel/module.c:3041
+msgid "%s: module is from the staging directory, the quality "
+msgstr ""
+
+#: kernel/module.c:3093
+msgid "%s: has both .ctors and .init_array.\n"
+msgstr ""
+
+#: kernel/module.c:3118
+msgid "__trace_printk_fmt"
+msgstr ""
+
+#: kernel/module.c:3137
+msgid "%s: Ignoring obsolete parameters\n"
+msgstr ""
+
+#: kernel/module.c:3183
+msgid "final section addresses:\n"
+msgstr ""
+
+#: kernel/module.c:3201
+msgid "\t0x%lx %s\n"
+msgstr ""
+
+#: kernel/module.c:3231
+msgid "%s: module license taints kernel.\n"
+msgstr ""
+
+#: kernel/module.c:3463
+msgid "%s: '%s'->init suspiciously returned %d, it should "
+msgstr ""
+
+#: kernel/module.c:3652
+msgid "%s: unknown parameter '%s' ignored\n"
+msgstr ""
+
+#: kernel/module.c:3690
+msgid "%s: module verification failed: signature "
+msgstr ""
+
+#: kernel/module.c:3766
+msgid "%s: parameters '%s' after `--' ignored\n"
+msgstr ""
+
+#: kernel/module.c:3847
+msgid "init_module: umod=%p, len=%lu, uargs=%p\n"
+msgstr ""
+
+#: kernel/module.c:3868
+msgid "finit_module: fd=%d, uargs=%p, flags=%i\n"
+msgstr ""
+
+#: kernel/module.c:4366
+msgid "Modules linked in:"
+msgstr ""
+
+#: kernel/module.c:4372
+msgid " %s%s"
+msgstr ""
+
+#: kernel/module.c:4376
+msgid " [last unloaded: %s]"
+msgstr ""
+
+#: kernel/module_signing.c:52
+msgid "==>%s(,%zu)\n"
+msgstr ""
+
+#: kernel/module_signing.c:67
+msgid "Module is not signed with expected PKCS#7 message\n"
+msgstr ""
+
+#: kernel/module_signing.c:78
+msgid "PKCS#7 signature info has unexpected non-zero params\n"
+msgstr ""
+
+#: kernel/panic.c:120
+msgid "%s"
+msgstr ""
+
+#: kernel/panic.c:177
+msgid "Kernel panic - not syncing: %s\n"
+msgstr "Poploch jadra - nie zestrajam: %s\n"
+
+#: kernel/panic.c:254
+msgid "normal"
+msgstr ""
+
+#: kernel/panic.c:256
+msgid "Rebooting in %d seconds..\n"
+msgstr ""
+
+#: kernel/panic.c:280
+msgid "Press Stop-A (L1-A) from sun keyboard or send break\n"
+msgstr ""
+
+#: kernel/panic.c:292
+msgid "---[ end Kernel panic - not syncing: %s ]---\n"
+msgstr "---[ koniec poplochu jadra - nie zestrajam: %s ]---\n"
+
+#: kernel/panic.c:341
+msgid "Tainted: "
+msgstr "Splugawione: "
+
+#: kernel/panic.c:357
+msgid "Not tainted"
+msgstr "Niesplugawione: "
+
+#: kernel/panic.c:384
+msgid "Disabling lock debugging due to kernel taint\n"
+msgstr ""
+
+#: kernel/panic.c:489
+msgid "---[ end trace %016llx ]---\n"
+msgstr ""
+
+#: kernel/panic.c:517
+msgid "WARNING: CPU: %d PID: %d at %s:%d %pS\n"
+msgstr ""
+"Ostrzeżenie: Jednostka obliczeniowa: %d Numer zadania: %d na %s:%d %pS\n"
+
+#: kernel/panic.c:521
+msgid "WARNING: CPU: %d PID: %d at %pS\n"
+msgstr "Ostrzeżenie: Jednostka obliczeniowa: %d Numer zadania: %d na %s %pS\n"
+
+#: kernel/panic.c:535
+msgid "panic_on_warn set ...\n"
+msgstr ""
+
+#: kernel/panic.c:633
+msgid "stack-protector: Kernel stack is corrupted in: %pB\n"
+msgstr ""
+
+#: kernel/panic.c:660
+msgid "panic"
+msgstr "popłoch"
+
+#: kernel/params.c:113
+msgid "Setting dangerous option %s - tainting kernel\n"
+msgstr ""
+
+#: kernel/params.c:143
+msgid "handling %s with %p\n"
+msgstr ""
+
+#: kernel/params.c:154
+msgid "doing %s: %s='%s'\n"
+msgstr ""
+
+#: kernel/params.c:158
+msgid "Unknown argument '%s'\n"
+msgstr ""
+
+#: kernel/params.c:179
+msgid "doing %s, parsing ARGS: '%s'\n"
+msgstr ""
+
+#: kernel/params.c:193
+msgid "%s: option '%s' enabled irq's!\n"
+msgstr ""
+
+#: kernel/params.c:200
+msgid "%s: Unknown parameter `%s'\n"
+msgstr ""
+
+#: kernel/params.c:203
+msgid "%s: `%s' too large for parameter `%s'\n"
+msgstr ""
+
+#: kernel/params.c:207
+msgid "%s: `%s' invalid for parameter `%s'\n"
+msgstr ""
+
+#: kernel/params.c:250
+msgid "%s: string parameter too long\n"
+msgstr ""
+
+#: kernel/params.c:420
+msgid "%s: can only take %i arguments\n"
+msgstr ""
+
+#: kernel/params.c:439
+msgid "%s: needs at least %i arguments\n"
+msgstr ""
+
+#: kernel/params.c:498
+msgid "%s: string doesn't fit in %u chars.\n"
+msgstr ""
+
+#: kernel/params.c:765
+msgid "Adding module '%s' to sysfs failed (%d), the system may be unstable.\n"
+msgstr ""
+
+#: kernel/params.c:946
+msgid "%s (%d): error creating kset\n"
+msgstr ""
+
+#: kernel/pid.c:463
+msgid "pid_max: default: %u minimum: %u\n"
+msgstr ""
+
+#: kernel/profile.c:69
+msgid "kernel sleep profiling enabled (shift: %ld)\n"
+msgstr ""
+
+#: kernel/profile.c:72
+msgid "kernel sleep profiling requires CONFIG_SCHEDSTATS\n"
+msgstr ""
+
+#: kernel/profile.c:80
+msgid "kernel schedule profiling enabled (shift: %ld)\n"
+msgstr ""
+
+#: kernel/profile.c:88
+msgid "kernel KVM profiling enabled (shift: %ld)\n"
+msgstr ""
+
+#: kernel/profile.c:93
+msgid "kernel profiling enabled (shift: %ld)\n"
+msgstr ""
+
+#: kernel/profile.c:416
+msgid "%*pb\n"
+msgstr ""
+
+#: kernel/range.c:103
+msgid "%s: run out of slot in ranges\n"
+msgstr ""
+
+#: kernel/reboot.c:6
+msgid "reboot: "
+msgstr ""
+
+#: kernel/reboot.c:246
+msgid "Restarting system\n"
+msgstr ""
+
+#: kernel/reboot.c:248
+msgid "Restarting system with command '%s'\n"
+msgstr ""
+
+#: kernel/reboot.c:272
+msgid "System halted\n"
+msgstr ""
+
+#: kernel/reboot.c:290
+msgid "Power down\n"
+msgstr ""
+
+#: kernel/reboot.c:357
+msgid "cannot halt"
+msgstr ""
+
+#: kernel/reboot.c:445
+msgid "Failed to start orderly reboot: forcing the issue\n"
+msgstr ""
+
+#: kernel/reboot.c:460
+msgid "Failed to start orderly shutdown: forcing the issue\n"
+msgstr ""
+
+#: kernel/relay.c:529
+msgid "relay: cpu %d buffer creation failed\n"
+msgstr ""
+
+#: kernel/relay.c:847
+msgid "relay: one or more items not logged "
+msgstr ""
+
+#: kernel/resource.c:288
+msgid "release child resource %pR\n"
+msgstr ""
+
+#: kernel/resource.c:927
+msgid "Expanded resource %s due to conflict with %s\n"
+msgstr ""
+
+#: kernel/resource.c:1086
+msgid "requested range [0x%llx-0x%llx] not in root %pr\n"
+msgstr ""
+
+#: kernel/resource.c:1096
+msgid "fixing request to [0x%llx-0x%llx]\n"
+msgstr ""
+
+#: kernel/resource.c:1240
+msgid "Trying to free nonexistent resource "
+msgstr ""
+
+#: kernel/resource.c:1559
+msgid ""
+"resource sanity check: requesting [mem %#010llx-%#010llx], which spans more "
+"than %s %pR\n"
+msgstr ""
+
+#: kernel/seccomp.c:1280
+msgid "seccomp: sysctl registration failed\n"
+msgstr ""
+
+#: kernel/signal.c:236
+msgid "%s/%d: reached RLIMIT_SIGPENDING, dropped signal %d\n"
+msgstr ""
+
+#: kernel/signal.c:1120
+msgid "potentially unexpected fatal signal %d.\n"
+msgstr ""
+
+#: kernel/signal.c:1123
+msgid "code at %08lx: "
+msgstr ""
+
+#: kernel/signal.c:1131
+msgid "%02x "
+msgstr ""
+
+#: kernel/smp.c:232
+msgid "IPI callback %pS sent to offline CPU\n"
+msgstr ""
+
+#: kernel/smp.c:570
+msgid "Bringing up secondary CPUs ...\n"
+msgstr ""
+
+#: kernel/smp.c:582
+msgid "Brought up %d node%s, %d CPU%s\n"
+msgstr ""
+
+#: kernel/smpboot.c:56
+msgid "SMP: fork_idle() failed for CPU %u\n"
+msgstr ""
+
+#: kernel/softirq.c:287
+msgid ""
+"huh, entered softirq %u %s %p with preempt_count %08x, exited with %08x?\n"
+msgstr ""
+
+#: kernel/softirq.c:554
+msgid "Attempt to kill tasklet from interrupt\n"
+msgstr ""
+
+#: kernel/stacktrace.c:21
+msgid "%*c%pS\n"
+msgstr ""
+
+#: kernel/sysctl.c:654
+msgid "tracepoint_printk"
+msgstr ""
+
+#: kernel/sysctl.c:807
+msgid "panic_on_oops"
+msgstr ""
+
+#: kernel/sysctl.c:815
+msgid "printk"
+msgstr ""
+
+#: kernel/sysctl.c:822
+msgid "printk_ratelimit"
+msgstr ""
+
+#: kernel/sysctl.c:829
+msgid "printk_ratelimit_burst"
+msgstr ""
+
+#: kernel/sysctl.c:836
+msgid "printk_delay"
+msgstr ""
+
+#: kernel/sysctl.c:845
+msgid "printk_devkmsg"
+msgstr ""
+
+#: kernel/sysctl.c:930
+msgid "softlockup_panic"
+msgstr ""
+
+#: kernel/sysctl.c:952
+msgid "hardlockup_panic"
+msgstr ""
+
+#: kernel/sysctl.c:976
+msgid "unknown_nmi_panic"
+msgstr ""
+
+#: kernel/sysctl.c:985
+msgid "panic_on_unrecovered_nmi"
+msgstr ""
+
+#: kernel/sysctl.c:992
+msgid "panic_on_io_nmi"
+msgstr ""
+
+#: kernel/sysctl.c:1000
+msgid "panic_on_stackoverflow"
+msgstr ""
+
+#: kernel/sysctl.c:1076
+msgid "hung_task_panic"
+msgstr ""
+
+#: kernel/sysctl.c:1190
+msgid "panic_on_warn"
+msgstr ""
+
+#: kernel/sysctl.c:1223
+msgid "panic_on_rcu_stall"
+msgstr ""
+
+#: kernel/sysctl.c:1246
+msgid "panic_on_oom"
+msgstr ""
+
+#: kernel/sysctl.c:1968
+msgid "%s wrote to %s when file position was not 0!\n"
+msgstr ""
+
+#: kernel/sysctl_binary.c:748
+msgid "panic_mask"
+msgstr ""
+
+#: kernel/sysctl_binary.c:1346
+msgid "%d."
+msgstr ""
+
+#: kernel/taskstats.c:692
+msgid "registered taskstats version %d\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:16
+msgid "Kprobe smoke test: "
+msgstr ""
+
+#: kernel/test_kprobes.c:38
+msgid "pre-handler is preemptible\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:49
+msgid "post-handler is preemptible\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:53
+msgid "incorrect value in post_handler\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:70
+msgid "register_kprobe returned %d\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:78
+msgid "kprobe pre_handler not called\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:83
+msgid "kprobe post_handler not called\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:106
+msgid "incorrect value in post_handler2\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:127
+msgid "register_kprobes returned %d\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:150
+msgid "kprobe pre_handler2 not called\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:155
+msgid "kprobe post_handler2 not called\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:171
+msgid "jprobe-handler is preemptible\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:175
+msgid "incorrect value in jprobe handler\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:194
+msgid "register_jprobe returned %d\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:201
+msgid "jprobe handler not called\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:223
+msgid "register_jprobes returned %d\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:237
+msgid "jprobe handler2 not called\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:255
+msgid "kretprobe entry handler is preemptible\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:267
+msgid "kretprobe return handler is preemptible\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:271
+msgid "incorrect value in kretprobe handler\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:275
+msgid "call to kretprobe entry handler failed\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:294
+msgid "register_kretprobe returned %d\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:301
+msgid "kretprobe handler not called\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:314
+msgid "incorrect value in kretprobe handler2\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:355
+msgid "kretprobe handler2 not called\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:374
+msgid "started\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:408
+msgid "BUG: %d out of %d tests failed\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:410
+msgid "BUG: %d error(s) running handlers\n"
+msgstr ""
+
+#: kernel/test_kprobes.c:412
+msgid "passed successfully\n"
+msgstr ""
+
+#: kernel/torture.c:266
+msgid "onoff: %ld/%ld:%ld/%ld %d,%d:%d,%d %lu:%lu (HZ=%d) "
+msgstr ""
+
+#: kernel/torture.c:461
+msgid "torture thread %s parking due to system shutdown\n"
+msgstr ""
+
+#: kernel/torture.c:535
+msgid "Concurrent rmmod and shutdown illegal!\n"
+msgstr ""
+
+#: kernel/torture.c:653
+msgid "torture_init_begin: Refusing %s init: %s running.\n"
+msgstr ""
+
+#: kernel/torture.c:655
+msgid "torture_init_begin: One torture test at a time!\n"
+msgstr ""
+
+#: kernel/tracepoint.c:91
+msgid "Probe %d : %p\n"
+msgstr ""
+
+#: kernel/tracepoint.c:497
+msgid "Failed to register tracepoint module enter notifier\n"
+msgstr ""
+
+#: kernel/watchdog.c:12
+msgid "watchdog: "
+msgstr ""
+
+#: kernel/watchdog.c:78
+msgid "nopanic"
+msgstr ""
+
+#: kernel/watchdog.c:86
+msgid "nmi_watchdog="
+msgstr ""
+
+#: kernel/watchdog.c:190
+msgid "softlockup_panic="
+msgstr ""
+
+#: kernel/watchdog.c:418
+msgid "BUG: soft lockup - CPU#%d stuck for %us! [%s:%d]\n"
+msgstr ""
+
+#: kernel/watchdog.c:442
+msgid "softlockup: hung tasks"
+msgstr ""
+
+#: kernel/watchdog.c:597
+msgid "Failed to initialize soft lockup detector threads\n"
+msgstr ""
+
+#: kernel/watchdog.c:778
+msgid "Disabling watchdog on nohz_full cores by default\n"
+msgstr ""
+
+#: kernel/watchdog_hld.c:12
+msgid "NMI watchdog: "
+msgstr ""
+
+#: kernel/watchdog_hld.c:137
+msgid "Watchdog detected hard LOCKUP on cpu %d"
+msgstr ""
+
+#: kernel/watchdog_hld.c:154
+msgid "Hard LOCKUP"
+msgstr ""
+
+#: kernel/watchdog_hld.c:177
+msgid "Perf event create on CPU %d failed with %ld\n"
+msgstr ""
+
+#: kernel/watchdog_hld.c:195
+msgid "Enabled. Permanently consumes one hw-PMU counter.\n"
+msgstr ""
+
+#: kernel/watchdog_hld.c:288
+msgid "Perf NMI watchdog permanently disabled\n"
+msgstr ""
+
+#: kernel/workqueue.c:1343
+msgid ""
+"workqueue: round-robin CPU selection forced, expect performance impact\n"
+msgstr ""
+
+#: kernel/workqueue.c:2154
+msgid "BUG: workqueue leaked lock or atomic: %s/0x%08x/%d\n"
+msgstr ""
+
+#: kernel/workqueue.c:2817
+msgid "workqueue %s: drain_workqueue() isn't complete after %u tries\n"
+msgstr ""
+
+#: kernel/workqueue.c:3636
+msgid "WARNING: workqueue cpumask: online intersect > "
+msgstr ""
+
+#: kernel/workqueue.c:3919
+msgid "workqueue: allocation failed while updating NUMA affinity of \\"
+msgstr ""
+
+#: kernel/workqueue.c:3981
+msgid ""
+"workqueue: max_active %d requested for %s is out of range, clamping between "
+"%d and %d\n"
+msgstr ""
+
+#: kernel/workqueue.c:4400
+msgid "%sWorkqueue: %s %pf"
+msgstr ""
+
+#: kernel/workqueue.c:4402
+msgid " (%s)"
+msgstr ""
+
+#: kernel/workqueue.c:4409
+msgid " cpus=%*pbl"
+msgstr ""
+
+#: kernel/workqueue.c:4411
+msgid " node=%d"
+msgstr ""
+
+#: kernel/workqueue.c:4412
+msgid " flags=0x%x nice=%d"
+msgstr ""
+
+#: kernel/workqueue.c:4422
+msgid "%s BAR(%d)"
+msgstr ""
+
+#: kernel/workqueue.c:4422
+msgid ","
+msgstr ""
+
+#: kernel/workqueue.c:4425
+msgid "%s %pf"
+msgstr ""
+
+#: kernel/workqueue.c:4437
+msgid "  pwq %d:"
+msgstr ""
+
+#: kernel/workqueue.c:4440
+msgid " active=%d/%d%s\n"
+msgstr ""
+
+#: kernel/workqueue.c:4452
+msgid "    in-flight:"
+msgstr ""
+
+#: kernel/workqueue.c:4457
+msgid "%s %d%s:%pf"
+msgstr ""
+
+#: kernel/workqueue.c:4477
+msgid "    pending:"
+msgstr ""
+
+#: kernel/workqueue.c:4491
+msgid "    delayed:"
+msgstr ""
+
+#: kernel/workqueue.c:4515
+msgid "Showing busy workqueues and worker pools:\n"
+msgstr ""
+
+#: kernel/workqueue.c:4530
+msgid "workqueue %s: flags=0x%x\n"
+msgstr ""
+
+#: kernel/workqueue.c:4554
+msgid "pool %d:"
+msgstr ""
+
+#: kernel/workqueue.c:4556
+msgid " hung=%us workers=%d"
+msgstr ""
+
+#: kernel/workqueue.c:4560
+msgid " manager: %d"
+msgstr ""
+
+#: kernel/workqueue.c:4563
+msgid " %s%d"
+msgstr ""
+
+#: kernel/workqueue.c:4563
+msgid "idle: "
+msgstr ""
+
+#: kernel/workqueue.c:5498
+msgid "BUG: workqueue lockup - pool"
+msgstr ""
+
+#: kernel/workqueue.c:5500
+msgid " stuck for %us!\n"
+msgstr ""
+
+#: kernel/workqueue.c:5581
+msgid "workqueue: NUMA affinity support disabled\n"
+msgstr ""
+
+#: kernel/workqueue.c:5603
+msgid ""
+"workqueue: NUMA node mapping not available for cpu%d, disabling NUMA "
+"support\n"
+msgstr ""

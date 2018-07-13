@@ -1,0 +1,2319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"Last-Translator: Przemysław Buczkowski <przemub@przemub.pl>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"Language: pl\n"
+
+#: lib/asn1_decoder.c:204
+msgid "next_op: pc=\\e[32m%zu\\e[m/%zu dp=\\e[33m%zu\\e[m/%zu C=%d J=%d\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:237
+msgid "- any %02x\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:250
+msgid "- match? %02x %02x %02x\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:308
+msgid "- TAG: %02x %zu%s\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:339
+msgid "- LEAF: %zu\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:362
+msgid "- MATCH_JUMP\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:377
+msgid "ASN.1 decoder error: Stacks not empty at completion (%u, %u)\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:400
+msgid "- end cons t=%zu dp=%zu l=%zu/%zu\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:412
+msgid "- continue\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:431
+msgid "- cons len l=%zu d=%zu\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:471
+msgid "ASN.1 decoder error: Found reserved opcode (%u) pc=%zu\n"
+msgstr ""
+
+#: lib/asn1_decoder.c:514
+msgid ""
+"\n"
+"ASN1: %s [m=%zu d=%zu ot=%02x t=%02x l=%zu]\n"
+msgstr ""
+
+#: lib/assoc_array.c:186
+msgid "-->%s()\n"
+msgstr ""
+
+#: lib/assoc_array.c:203
+msgid "segments[%d]: %lx\n"
+msgstr ""
+
+#: lib/assoc_array.c:214
+msgid "consider slot %x [ix=%d type=%lu]\n"
+msgstr ""
+
+#: lib/assoc_array.c:224
+msgid "<--%s() = terminal_node\n"
+msgstr ""
+
+#: lib/assoc_array.c:246
+msgid "shortcut to %d\n"
+msgstr ""
+
+#: lib/assoc_array.c:358
+msgid "empty\n"
+msgstr ""
+
+#: lib/assoc_array.c:365
+msgid "[%d] shortcut\n"
+msgstr ""
+
+#: lib/assoc_array.c:376
+msgid "[%d] node\n"
+msgstr ""
+
+#: lib/assoc_array.c:383
+msgid "Node %p [back=%p]\n"
+msgstr ""
+
+#: lib/assoc_array.c:395
+msgid "[%d] free leaf\n"
+msgstr ""
+
+#: lib/assoc_array.c:402
+msgid "free node\n"
+msgstr ""
+
+#: lib/assoc_array.c:415
+msgid "free shortcut\n"
+msgstr ""
+
+#: lib/assoc_array.c:424
+msgid "ascend to %p[%d]\n"
+msgstr ""
+
+#: lib/assoc_array.c:470
+msgid "<--%s() = ok [no root]\n"
+msgstr ""
+
+#: lib/assoc_array.c:516
+msgid "replace in slot %d\n"
+msgstr ""
+
+#: lib/assoc_array.c:519
+msgid "<--%s() = ok [replace]\n"
+msgstr ""
+
+#: lib/assoc_array.c:528
+msgid "insert in free slot %d\n"
+msgstr ""
+
+#: lib/assoc_array.c:531
+msgid "<--%s() = ok [insert]\n"
+msgstr ""
+
+#: lib/assoc_array.c:552
+msgid "no spare slots\n"
+msgstr ""
+
+#: lib/assoc_array.c:568
+msgid "have meta\n"
+msgstr ""
+
+#: lib/assoc_array.c:578
+msgid "only leaves; dissimilarity=%lx\n"
+msgstr ""
+
+#: lib/assoc_array.c:595
+msgid "present leaves cluster but not new leaf\n"
+msgstr ""
+
+#: lib/assoc_array.c:599
+msgid "split node\n"
+msgstr ""
+
+#: lib/assoc_array.c:623
+msgid "do_split_node\n"
+msgstr ""
+
+#: lib/assoc_array.c:642
+msgid "same slot: %x %x [%02x]\n"
+msgstr ""
+
+#: lib/assoc_array.c:675
+msgid "filtered: f=%x n=%x\n"
+msgstr ""
+
+#: lib/assoc_array.c:713
+msgid "<--%s() = ok [split node]\n"
+msgstr ""
+
+#: lib/assoc_array.c:731
+msgid "all leaves cluster together\n"
+msgstr ""
+
+#: lib/assoc_array.c:763
+msgid "skip_to_level = %d [diff %d]\n"
+msgstr ""
+
+#: lib/assoc_array.c:771
+msgid "blank off [%zu] %d: %lx\n"
+msgstr ""
+
+#: lib/assoc_array.c:811
+msgid "-->%s(ix=%d dis=%lx scix=%d)\n"
+msgstr ""
+
+#: lib/assoc_array.c:823
+msgid "diff=%d\n"
+msgstr ""
+
+#: lib/assoc_array.c:849
+msgid "pre-shortcut %d...%d\n"
+msgstr ""
+
+#: lib/assoc_array.c:874
+msgid "no pre-shortcut\n"
+msgstr ""
+
+#: lib/assoc_array.c:889
+msgid "new slot %lx >> %d -> %d\n"
+msgstr ""
+
+#: lib/assoc_array.c:899
+msgid "post-shortcut %d...%d\n"
+msgstr ""
+
+#: lib/assoc_array.c:922
+msgid "no post-shortcut\n"
+msgstr ""
+
+#: lib/assoc_array.c:942
+msgid "<--%s() = ok [split shortcut]\n"
+msgstr ""
+
+#: lib/assoc_array.c:1018
+msgid "enomem\n"
+msgstr ""
+
+#: lib/assoc_array.c:1106
+msgid "terminal_node\n"
+msgstr ""
+
+#: lib/assoc_array.c:1121
+msgid "not found\n"
+msgstr ""
+
+#: lib/assoc_array.c:1144
+msgid "all gone\n"
+msgstr ""
+
+#: lib/assoc_array.c:1175
+msgid "leaves: %ld [m=%d]\n"
+msgstr ""
+
+#: lib/assoc_array.c:1183
+msgid "collapse subtree: %ld\n"
+msgstr ""
+
+#: lib/assoc_array.c:1227
+msgid "collapsed %d,%lu\n"
+msgstr ""
+
+#: lib/assoc_array.c:1497
+msgid "dup shortcut %p -> %p\n"
+msgstr ""
+
+#: lib/assoc_array.c:1512
+msgid "dup node %p -> %p\n"
+msgstr ""
+
+#: lib/assoc_array.c:1541
+msgid "-- compress node %p --\n"
+msgstr ""
+
+#: lib/assoc_array.c:1555
+msgid "free=%d, leaves=%lu\n"
+msgstr ""
+
+#: lib/assoc_array.c:1578
+msgid "[%d] fold node %lu/%d [nx %d]\n"
+msgstr ""
+
+#: lib/assoc_array.c:1604
+msgid "[%d] retain node %lu/%d [nx %d]\n"
+msgstr ""
+
+#: lib/assoc_array.c:1610
+msgid "after: %lu\n"
+msgstr ""
+
+#: lib/assoc_array.c:1622
+msgid "excise node %p with 1 shortcut\n"
+msgstr ""
+
+#: lib/assoc_array.c:1639
+msgid "excise preceding shortcut\n"
+msgstr ""
+
+#: lib/assoc_array.c:1675
+msgid "excise shortcut\n"
+msgstr ""
+
+#: lib/atomic64_test.c:11
+msgid ": "
+msgstr ""
+
+#: lib/atomic64_test.c:257
+msgid "passed for %s platform %s CX8 and %s SSE\n"
+msgstr ""
+
+#: lib/atomic64_test.c:268
+msgid "passed\n"
+msgstr ""
+
+#: lib/bch.c:1266
+msgid "bch encoder/decoder was configured to support "
+msgstr ""
+
+#: lib/bug.c:193
+msgid "kernel BUG at %s:%u!\n"
+msgstr ""
+
+#: lib/bug.c:195
+msgid "Kernel BUG at %pB [verbose debug info unavailable]\n"
+msgstr ""
+
+#: lib/cpu_rmap.c:118
+msgid "cpu_rmap %p, %s:\n"
+msgstr ""
+
+#: lib/cpu_rmap.c:122
+msgid "cpu %d -> obj %u (distance %u)\n"
+msgstr ""
+
+#: lib/cpu_rmap.c:260
+msgid "irq_cpu_rmap_notify: update failed: %d\n"
+msgstr ""
+
+#: lib/cpumask.c:117
+msgid "=> alloc_cpumask_var: failed!\n"
+msgstr ""
+
+#: lib/crc32test.c:698
+msgid "crc32c: CRC_LE_BITS = %d\n"
+msgstr ""
+
+#: lib/crc32test.c:701
+msgid "crc32c: %d self tests failed\n"
+msgstr ""
+
+#: lib/crc32test.c:703
+msgid "crc32c: self tests passed, processed %d bytes in %lld nsec\n"
+msgstr ""
+
+#: lib/crc32test.c:738
+msgid "crc32c_combine: %d/%d self tests failed\n"
+msgstr ""
+
+#: lib/crc32test.c:740
+msgid "crc32c_combine: %d self tests passed\n"
+msgstr ""
+
+#: lib/crc32test.c:787
+msgid "crc32: CRC_LE_BITS = %d, CRC_BE BITS = %d\n"
+msgstr ""
+
+#: lib/crc32test.c:791
+msgid "crc32: %d self tests failed\n"
+msgstr ""
+
+#: lib/crc32test.c:793
+msgid "crc32: self tests passed, processed %d bytes in %lld nsec\n"
+msgstr ""
+
+#: lib/crc32test.c:828
+msgid "crc32_combine: %d/%d self tests failed\n"
+msgstr ""
+
+#: lib/crc32test.c:830
+msgid "crc32_combine: %d self tests passed\n"
+msgstr ""
+
+#: lib/debugobjects.c:10
+msgid "ODEBUG: "
+msgstr ""
+
+#: lib/debugobjects.c:289
+msgid "Out of memory. ODEBUG disabled\n"
+msgstr ""
+
+#: lib/debugobjects.c:362
+msgid "object is on stack, but not annotated\n"
+msgstr ""
+
+#: lib/debugobjects.c:364
+msgid "object is not on stack, but annotated\n"
+msgstr ""
+
+#: lib/debugobjects.c:1083
+msgid "selftest passed\n"
+msgstr ""
+
+#: lib/debugobjects.c:1159
+msgid "%d of %d active objects replaced\n"
+msgstr ""
+
+#: lib/debugobjects.c:1189
+msgid "out of memory.\n"
+msgstr ""
+
+#: lib/decompress.c:68
+msgid "Compressed data magic: %#.2x %#.2x\n"
+msgstr ""
+
+#: lib/digsig.c:232
+msgid "key not found, id: %s\n"
+msgstr ""
+
+#: lib/digsig.c:266
+msgid "shash allocation failed\n"
+msgstr ""
+
+#: lib/dma-debug.c:180
+msgid "Mapped at:\n"
+msgstr ""
+
+#: lib/dma-debug.c:632
+msgid "DMA-API: cacheline tracking ENOMEM, dma-debug disabled\n"
+msgstr ""
+
+#: lib/dma-debug.c:671
+msgid "DMA-API: debugging out of memory - disabling\n"
+msgstr ""
+
+#: lib/dma-debug.c:776
+msgid "DMA-API: preallocated %d debug entries\n"
+msgstr ""
+
+#: lib/dma-debug.c:849
+msgid "DMA-API: switching off dma-debug driver filter\n"
+msgstr ""
+
+#: lib/dma-debug.c:867
+msgid "DMA-API: enable driver filter for driver [%s]\n"
+msgstr ""
+
+#: lib/dma-debug.c:886
+msgid "DMA-API: can not create debugfs directory\n"
+msgstr ""
+
+#: lib/dma-debug.c:972
+msgid "DMA-API: device driver has pending "
+msgstr ""
+
+#: lib/dma-debug.c:997
+msgid "dma_debug_add_bus: out of memory\n"
+msgstr ""
+
+#: lib/dma-debug.c:1025
+msgid "DMA-API: error creating debugfs entries - disabling\n"
+msgstr ""
+
+#: lib/dma-debug.c:1035
+msgid "DMA-API: debugging out of memory error - disabled\n"
+msgstr ""
+
+#: lib/dma-debug.c:1045
+msgid "DMA-API: debugging enabled by kernel config\n"
+msgstr ""
+
+#: lib/dma-debug.c:1054
+msgid "DMA-API: debugging disabled on kernel command line\n"
+msgstr ""
+
+#: lib/dma-debug.c:1107
+msgid "DMA-API: device driver frees "
+msgstr ""
+
+#: lib/dma-debug.c:1187
+msgid "DMA-API: device driver maps memory from stack [addr=%p]\n"
+msgstr ""
+
+#: lib/dma-debug.c:1197
+msgid "DMA-API: device driver maps memory from stack [probable addr=%p]\n"
+msgstr ""
+
+#: lib/dma-debug.c:1217
+msgid ""
+"DMA-API: device driver maps memory from kernel text or rodata [addr=%p] [len="
+"%lu]\n"
+msgstr ""
+
+#: lib/dma-debug.c:1233
+msgid "DMA-API: device driver tries "
+msgstr ""
+
+#: lib/dma-debug.c:1241
+msgid "DMA-API: device driver syncs"
+msgstr ""
+
+#: lib/dma-debug.c:1254
+msgid "DMA-API: device driver syncs "
+msgstr ""
+
+#: lib/dump_stack.c:46
+msgid "%sCPU: %d PID: %d Comm: %.20s %s%s %s %.*s\n"
+msgstr ""
+"%sJednostka obliczeniowa: %d Numer zadania: %d Międzymordzie: %.20s %s%s %s "
+"%.*s\n"
+
+#: lib/dump_stack.c:55
+msgid "%sHardware name: %s\n"
+msgstr "%sNazwa maszyny: %s\n"
+
+#: lib/dynamic_debug.c:13
+msgid ":%s: "
+msgstr ""
+
+#: lib/dynamic_debug.c:122
+msgid "%s: func=\\"
+msgstr ""
+
+#: lib/dynamic_debug.c:122
+msgid " file=\\"
+msgstr ""
+
+#: lib/dynamic_debug.c:122
+msgid " module=\\"
+msgstr ""
+
+#: lib/dynamic_debug.c:122
+msgid " format=\\"
+msgstr ""
+
+#: lib/dynamic_debug.c:122
+msgid " lineno=%u-%u\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:198
+msgid "changed %s:%d [%s]%s =%s\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:208
+msgid "no matches for query\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:239
+msgid "unclosed quote: %s\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:250
+msgid "too many words, legal max <=%d\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:261
+msgid "split into words:"
+msgstr ""
+
+#: lib/dynamic_debug.c:263
+msgid " \\"
+msgstr ""
+
+#: lib/dynamic_debug.c:283
+msgid "bad line-number: %s\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:295
+msgid "match-spec:%s val:%s overridden by %s\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:325
+msgid "expecting pairs of match-spec <value>\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:350
+msgid "match-spec: line used 2x\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:367
+msgid "last-line:%d < 1st-line:%d\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:376
+msgid "unknown keyword \\"
+msgstr ""
+
+#: lib/dynamic_debug.c:382
+msgid "parsed"
+msgstr ""
+
+#: lib/dynamic_debug.c:405
+msgid "bad flag-op %c, at start of %s\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:408
+msgid "op='%c'\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:418
+msgid "unknown flag '%c' in \\"
+msgstr ""
+
+#: lib/dynamic_debug.c:422
+msgid "flags=0x%x\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:439
+msgid "*flagsp=0x%x *maskp=0x%x\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:453
+msgid "tokenize failed\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:458
+msgid "flags parse failed\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:462
+msgid "query parse failed\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:467
+msgid "applied"
+msgstr ""
+
+#: lib/dynamic_debug.c:467
+msgid "no-match"
+msgstr ""
+
+#: lib/dynamic_debug.c:490
+msgid "query %d: \\"
+msgstr ""
+
+#: lib/dynamic_debug.c:501
+msgid "processed %d queries, with %d matches, %d errs\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:564
+msgid "%s%pV"
+msgstr ""
+
+#: lib/dynamic_debug.c:585
+msgid "(NULL device *): %pV"
+msgstr ""
+
+#: lib/dynamic_debug.c:589
+msgid "%s%s %s: %pV"
+msgstr ""
+
+#: lib/dynamic_debug.c:626
+msgid "%s%s: %pV"
+msgstr ""
+
+#: lib/dynamic_debug.c:629
+msgid "(NULL net_device): %pV"
+msgstr ""
+
+#: lib/dynamic_debug.c:644
+msgid "ddebug boot param string too large\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:667
+msgid "expected <%d bytes into control\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:673
+msgid "read %d bytes from userspace\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:736
+msgid "called m=%p *pos=%lld\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:760
+msgid "called m=%p p=%p *pos=%lld\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:783
+msgid "called m=%p p=%p\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:827
+msgid "called\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:867
+msgid "%u debug prints in module %s\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:897
+msgid "%s=\\"
+msgstr ""
+
+#: lib/dynamic_debug.c:908
+msgid "module: %s %s=\\"
+msgstr ""
+
+#: lib/dynamic_debug.c:928
+msgid "removing module \\"
+msgstr ""
+
+#: lib/dynamic_debug.c:985
+msgid "_ddebug table is empty in a CONFIG_DYNAMIC_DEBUG build\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:1012
+msgid ""
+"%d modules, %d entries and %d bytes in ddebug tables, %d bytes in (readonly) "
+"verbose section\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:1018
+msgid "ddebug_query param name is deprecated, change it to dyndbg\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:1021
+msgid "Invalid ddebug boot param %s\n"
+msgstr ""
+
+#: lib/dynamic_debug.c:1024
+msgid "%d changes by ddebug_query\n"
+msgstr ""
+
+#: lib/error-inject.c:70
+msgid "Failed to find error inject entry at %p\n"
+msgstr ""
+
+#: lib/fault-inject.c:43
+msgid "FAULT_INJECTION: forcing a failure.\n"
+msgstr ""
+
+#: lib/find_bit_benchmark.c:54
+msgid "find_first_bit:     %18llu ns, %6ld iterations\n"
+msgstr ""
+
+#: lib/find_bit_benchmark.c:68
+msgid "find_next_bit:      %18llu ns, %6ld iterations\n"
+msgstr ""
+
+#: lib/find_bit_benchmark.c:82
+msgid "find_next_zero_bit: %18llu ns, %6ld iterations\n"
+msgstr ""
+
+#: lib/find_bit_benchmark.c:101
+msgid "find_last_bit:      %18llu ns, %6ld iterations\n"
+msgstr ""
+
+#: lib/find_bit_benchmark.c:116
+msgid "find_next_and_bit:\t\t%llu cycles, %ld iterations\n"
+msgstr ""
+
+#: lib/find_bit_benchmark.c:126
+msgid ""
+"\n"
+"Start testing find_bit() with random-filled bitmap\n"
+msgstr ""
+
+#: lib/find_bit_benchmark.c:142
+msgid ""
+"\n"
+"Start testing find_bit() with sparse bitmap\n"
+msgstr ""
+
+#: lib/hexdump.c:262
+msgid "%s%s%p: %s\n"
+msgstr ""
+
+#: lib/hexdump.c:266
+msgid "%s%s%.8x: %s\n"
+msgstr ""
+
+#: lib/hexdump.c:269
+msgid "%s%s%s\n"
+msgstr ""
+
+#: lib/interval_tree_test.c:76
+msgid "interval tree insert/remove"
+msgstr ""
+
+#: lib/interval_tree_test.c:94
+msgid " -> %llu cycles\n"
+msgstr ""
+
+#: lib/interval_tree_test.c:96
+msgid "interval tree search"
+msgstr ""
+
+#: lib/interval_tree_test.c:117
+msgid " -> %llu cycles (%lu results)\n"
+msgstr ""
+
+#: lib/interval_tree_test.c:128
+msgid "test exit\n"
+msgstr ""
+
+#: lib/iov_iter.c:340
+msgid "idx = %d, offset = %zd\n"
+msgstr ""
+
+#: lib/iov_iter.c:341
+msgid "curbuf = %d, nrbufs = %d, buffers = %d\n"
+msgstr ""
+
+#: lib/iov_iter.c:344
+msgid "[%p %p %d %d]\n"
+msgstr ""
+
+#: lib/kobject.c:131
+msgid "kobject: '%s' (%p): %s: path = '%s'\n"
+msgstr ""
+
+#: lib/kobject.c:222
+msgid "kobject: '%s' (%p): %s: parent: '%s', set: '%s'\n"
+msgstr ""
+
+#: lib/kobject.c:235
+msgid ""
+"%s failed for %s with -EEXIST, don't try to register things with the same "
+"name in the same directory.\n"
+msgstr ""
+
+#: lib/kobject.c:238
+msgid "%s failed for %s (error: %d parent: %s)\n"
+msgstr ""
+
+#: lib/kobject.c:335
+msgid ""
+"kobject (%p): tried to init an initialized object, something is seriously "
+"wrong.\n"
+msgstr ""
+
+#: lib/kobject.c:345
+msgid "kobject (%p): %s\n"
+msgstr ""
+
+#: lib/kobject.c:358
+msgid "kobject: can not set name properly!\n"
+msgstr ""
+
+#: lib/kobject.c:400
+msgid ""
+"kobject '%s' (%p): tried to add an uninitialized object, something is "
+"seriously wrong.\n"
+msgstr ""
+
+#: lib/kobject.c:618
+msgid "kobject: '%s' (%p): %s, parent %p\n"
+msgstr ""
+
+#: lib/kobject.c:622
+msgid ""
+"kobject: '%s' (%p): does not have a release() function, it is broken and "
+"must be fixed.\n"
+msgstr ""
+
+#: lib/kobject.c:627
+msgid "kobject: '%s' (%p): auto cleanup 'remove' event\n"
+msgstr ""
+
+#: lib/kobject.c:634
+msgid "kobject: '%s' (%p): auto cleanup kobject_del\n"
+msgstr ""
+
+#: lib/kobject.c:640
+msgid "kobject: '%s' (%p): calling ktype release\n"
+msgstr ""
+
+#: lib/kobject.c:647
+msgid "kobject: '%s': free name\n"
+msgstr ""
+
+#: lib/kobject.c:665
+msgid "kobject: '%s' (%p): %s, parent %p (delayed %ld)\n"
+msgstr ""
+
+#: lib/kobject.c:695
+msgid "kobject: (%p): %s\n"
+msgstr ""
+
+#: lib/kobject.c:751
+msgid "%s: kobject_add error: %d\n"
+msgstr ""
+
+#: lib/kobject.c:865
+msgid "kobject: '%s' (%p): %s\n"
+msgstr ""
+
+#: lib/kobject_uevent.c:225
+msgid "synth uevent: %s: %s"
+msgstr ""
+
+#: lib/kobject_uevent.c:407
+msgid "kobject: '%s' (%p): %s: attempted to send uevent "
+msgstr ""
+
+#: lib/kobject_uevent.c:418
+msgid "kobject: '%s' (%p): %s: uevent_suppress "
+msgstr ""
+
+#: lib/kobject_uevent.c:426
+msgid "kobject: '%s' (%p): %s: filter function "
+msgstr ""
+
+#: lib/kobject_uevent.c:438
+msgid "kobject: '%s' (%p): %s: unset subsystem caused the "
+msgstr ""
+
+#: lib/kobject_uevent.c:480
+msgid "kobject: '%s' (%p): %s: uevent() returned "
+msgstr ""
+
+#: lib/list_sort.c:130
+msgid "list too long for efficiency\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1149
+msgid "failed|"
+msgstr ""
+
+#: lib/locking-selftest.c:1155
+msgid "FAILED|"
+msgstr ""
+
+#: lib/locking-selftest.c:1158
+msgid "  ok  |"
+msgstr ""
+
+#: lib/locking-selftest.c:1163
+msgid " lockclass mask: %x, debug_locks: %d, expected: %d\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1188
+msgid "%33s:"
+msgstr ""
+
+#: lib/locking-selftest.c:1894
+msgid "  --------------------------------------------------------------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1895
+msgid "  | Wound/wait tests |\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1896
+msgid "  ---------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1939
+msgid "  -----------------------------------------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1940
+msgid "                                 |block | try  |context|\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1974
+msgid "----------------------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1975
+msgid "| Locking API testsuite disabled |\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1983
+msgid "------------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1984
+msgid "| Locking API testsuite:\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1985
+msgid "----------------------------------------------------------------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:1986
+msgid ""
+"                                 | spin |wlock |rlock |mutex | wsem | rsem "
+"|\n"
+msgstr ""
+
+#: lib/locking-selftest.c:2004
+msgid "             |"
+msgstr ""
+
+#: lib/locking-selftest.c:2075
+msgid "-----------------------------------------------------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:2077
+msgid "BUG: %3d unexpected failures (out of %3d) - debugging disabled! |\n"
+msgstr ""
+
+#: lib/locking-selftest.c:2081
+msgid "--------------------------------------------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:2082
+msgid "%3d out of %3d testcases failed, as expected. |\n"
+msgstr ""
+
+#: lib/locking-selftest.c:2084
+msgid "----------------------------------------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:2088
+msgid "All %3d testcases failed, as expected. |\n"
+msgstr ""
+
+#: lib/locking-selftest.c:2090
+msgid "----------------------------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:2093
+msgid "-------------------------------------------------------\n"
+msgstr ""
+
+#: lib/locking-selftest.c:2094
+msgid "Good, all %3d testcases passed! |\n"
+msgstr ""
+
+#: lib/locking-selftest.c:2096
+msgid "---------------------------------\n"
+msgstr ""
+
+#: lib/logic_pio.c:7
+msgid "LOGIC PIO: "
+msgstr ""
+
+#: lib/logic_pio.c:78
+msgid "Requested IO range too big, new size set to 64K\n"
+msgstr ""
+
+#: lib/logic_pio.c:128
+msgid "PIO entry token %lx invalid\n"
+msgstr ""
+
+#: lib/logic_pio.c:167
+msgid "IO range not found or invalid\n"
+msgstr ""
+
+#: lib/logic_pio.c:171
+msgid "resource size %pa cannot fit in IO range size %pa\n"
+msgstr ""
+
+#: lib/logic_pio.c:188
+msgid "addr %llx not registered in io_range_list\n"
+msgstr ""
+
+#: lib/nlattr.c:84
+msgid "netlink: '%s': attribute type %d has an invalid length.\n"
+msgstr ""
+
+#: lib/nlattr.c:266
+msgid "netlink: %d bytes leftover after parsing attributes in process `%s'.\n"
+msgstr ""
+
+#: lib/nmi_backtrace.c:64
+msgid "Sending NMI from CPU %d to CPUs %*pbl:\n"
+msgstr ""
+
+#: lib/nmi_backtrace.c:95
+msgid "NMI backtrace for cpu %d skipped: idling at %pS\n"
+msgstr ""
+
+#: lib/nmi_backtrace.c:98
+msgid "NMI backtrace for cpu %d\n"
+msgstr ""
+
+#: lib/notifier-error-inject.c:40
+msgid "Injecting error (%d) to %s\n"
+msgstr ""
+
+#: lib/percpu-refcount.c:0
+msgid "%s: "
+msgstr ""
+
+#: lib/percpu-refcount.c:135
+msgid "global %ld percpu %ld"
+msgstr ""
+
+#: lib/percpu_ida.c:301
+msgid "percpu_ida_init(): nr_tags too large\n"
+msgstr ""
+
+#: lib/percpu_test.c:28
+msgid "percpu test start\n"
+msgstr ""
+
+#: lib/percpu_test.c:124
+msgid "percpu test done\n"
+msgstr ""
+
+#: lib/plist.c:225
+msgid "start plist test\n"
+msgstr ""
+
+#: lib/plist.c:257
+msgid "end plist test\n"
+msgstr ""
+
+#: lib/prime_numbers.c:0
+msgid "prime numbers: "
+msgstr ""
+
+#: lib/prime_numbers.c:254
+msgid "primes.{last=%lu, .sz=%lu, .primes[]=...x%lx} = %s"
+msgstr ""
+
+#: lib/prime_numbers.c:274
+msgid "inconsistent result for is-prime(%lu): slow=%s, fast=%s!"
+msgstr ""
+
+#: lib/prime_numbers.c:283
+msgid "incorrect result for next-prime(%lu): expected %lu, got %lu"
+msgstr ""
+
+#: lib/prime_numbers.c:290
+msgid "selftest(%lu) passed, last prime was %lu"
+msgstr ""
+
+#: lib/radix-tree.c:284
+msgid ""
+"radix node: %p offset %d indices %lu-%lu parent %p tags %lx %lx %lx shift %d "
+"count %d exceptional %d\n"
+msgstr ""
+
+#: lib/radix-tree.c:297
+msgid "radix retry offset %ld indices %lu-%lu parent %p\n"
+msgstr ""
+
+#: lib/radix-tree.c:300
+msgid "radix entry %p offset %ld indices %lu-%lu parent %p\n"
+msgstr ""
+
+#: lib/radix-tree.c:303
+msgid "radix sblng %p offset %ld indices %lu-%lu parent %p val %p\n"
+msgstr ""
+
+#: lib/radix-tree.c:315
+msgid "radix root: %p rnode %p tags %x\n"
+msgstr ""
+
+#: lib/radix-tree.c:333
+msgid ""
+"ida node: %p offset %d indices %lu-%lu parent %p free %lx shift %d count %d\n"
+msgstr ""
+
+#: lib/radix-tree.c:343
+msgid "ida excp: %p offset %d indices %lu-%lu data %lx\n"
+msgstr ""
+
+#: lib/radix-tree.c:353
+msgid "ida btmp: %p offset %d indices %lu-%lu data"
+msgstr ""
+
+#: lib/radix-tree.c:358
+msgid " %lx"
+msgstr ""
+
+#: lib/radix-tree.c:366
+msgid "ida: %p node %p free %d\n"
+msgstr ""
+
+#: lib/random32.c:439
+msgid "prandom: seed boundary self test failed\n"
+msgstr ""
+
+#: lib/random32.c:441
+msgid "prandom: seed boundary self test passed\n"
+msgstr ""
+
+#: lib/random32.c:460
+msgid "prandom: %d/%d self tests failed\n"
+msgstr ""
+
+#: lib/random32.c:462
+msgid "prandom: %d self tests passed\n"
+msgstr ""
+
+#: lib/rbtree_test.c:253
+msgid "rbtree testing"
+msgstr ""
+
+#: lib/rbtree_test.c:271
+msgid " -> test 1 (latency of nnodes insert+delete): %llu cycles\n"
+msgstr ""
+
+#: lib/rbtree_test.c:287
+msgid " -> test 2 (latency of nnodes cached insert+delete): %llu cycles\n"
+msgstr ""
+
+#: lib/rbtree_test.c:304
+msgid " -> test 3 (latency of inorder traversal): %llu cycles\n"
+msgstr ""
+
+#: lib/rbtree_test.c:316
+msgid " -> test 4 (latency to fetch first node)\n"
+msgstr ""
+
+#: lib/rbtree_test.c:317
+msgid "        non-cached: %llu cycles\n"
+msgstr ""
+
+#: lib/rbtree_test.c:328
+msgid "        cached: %llu cycles\n"
+msgstr ""
+
+#: lib/rbtree_test.c:347
+msgid "augmented rbtree testing"
+msgstr ""
+
+#: lib/sg_pool.c:131
+msgid "SG_POOL: can't init sg slab %s\n"
+msgstr ""
+
+#: lib/sg_pool.c:139
+msgid "SG_POOL: can't init sg mempool %s\n"
+msgstr ""
+
+#: lib/show_mem.c:16
+msgid "Mem-Info:\n"
+msgstr ""
+
+#: lib/show_mem.c:38
+msgid "%lu pages RAM\n"
+msgstr ""
+
+#: lib/show_mem.c:39
+msgid "%lu pages HighMem/MovableOnly\n"
+msgstr ""
+
+#: lib/show_mem.c:40
+msgid "%lu pages reserved\n"
+msgstr ""
+
+#: lib/show_mem.c:42
+msgid "%lu pages cma reserved\n"
+msgstr ""
+
+#: lib/show_mem.c:45
+msgid "%lu pages in pagetable cache\n"
+msgstr ""
+
+#: lib/show_mem.c:49
+msgid "%lu pages hwpoisoned\n"
+msgstr ""
+
+#: lib/smp_processor_id.c:41
+msgid "BUG: using %s%s() in preemptible [%08x] code: %s/%d\n"
+msgstr ""
+
+#: lib/smp_processor_id.c:44
+msgid "caller is %pS\n"
+msgstr ""
+
+#: lib/stmp_device.c:77
+msgid "%s(%p): module reset timeout\n"
+msgstr ""
+
+#: lib/string.c:1050
+msgid "detected buffer overflow in %s\n"
+msgstr ""
+
+#: lib/swiotlb.c:167
+msgid "software IO TLB: No low mem\n"
+msgstr ""
+
+#: lib/swiotlb.c:174
+msgid "software IO TLB [mem %#010llx-%#010llx] (%luMB) mapped at [%p-%p]\n"
+msgstr ""
+
+#: lib/swiotlb.c:277
+msgid "Cannot allocate SWIOTLB buffer"
+msgstr ""
+
+#: lib/swiotlb.c:319
+msgid "Warning: only able to allocate %ld MB "
+msgstr ""
+
+#: lib/swiotlb.c:493
+msgid ""
+"Can not allocate SWIOTLB buffer earlier and can't now provide you with the "
+"DMA bounce buffer"
+msgstr ""
+
+#: lib/swiotlb.c:496
+msgid "%s is active and system is using DMA bounce buffers\n"
+msgstr ""
+
+#: lib/swiotlb.c:789
+msgid "DMA: Random memory could be DMA accessed\n"
+msgstr ""
+
+#: lib/swiotlb.c:791
+msgid "DMA: Random memory could be DMA written\n"
+msgstr ""
+
+#: lib/swiotlb.c:793
+msgid "DMA: Random memory could be DMA read\n"
+msgstr ""
+
+#: lib/test-string_helpers.c:21
+msgid "Test '%s' failed: flags = %u\n"
+msgstr ""
+
+#: lib/test-string_helpers.c:270
+msgid "Test '%s' failed: flags = %u, osz = 0, expected %d, got %d\n"
+msgstr ""
+
+#: lib/test-string_helpers.c:349
+msgid "Test 'test_string_get_size' failed!\n"
+msgstr ""
+
+#: lib/test-string_helpers.c:350
+msgid "string_get_size(size = %llu, blk_size = %llu, units = %s)\n"
+msgstr ""
+
+#: lib/test-string_helpers.c:352
+msgid "expected: '%s', got '%s'\n"
+msgstr ""
+
+#: lib/test-string_helpers.c:396
+msgid "Running tests...\n"
+msgstr ""
+
+#: lib/test_bitmap.c:25
+msgid "[%s:%u] expected %u, got %u\n"
+msgstr ""
+
+#: lib/test_bitmap.c:39
+msgid "[%s:%u] bitmaps contents differ: expected \\"
+msgstr ""
+
+#: lib/test_bitmap.c:39
+msgid ", got \\"
+msgstr ""
+
+#: lib/test_bitmap.c:54
+msgid "[%s:%u] expected \\"
+msgstr ""
+
+#: lib/test_bitmap.c:72
+msgid "[%s:%u] array length differ: expected %u, got %u\n"
+msgstr ""
+
+#: lib/test_bitmap.c:79
+msgid "[%s:%u] array contents differ\n"
+msgstr ""
+
+#: lib/test_bitmap.c:279
+msgid "test %d: input is %s, errno is %d, expected %d\n"
+msgstr ""
+
+#: lib/test_bitmap.c:286
+msgid "test %d: input is %s, result is 0x%lx, expected 0x%lx\n"
+msgstr ""
+
+#: lib/test_bitmap.c:292
+msgid "test %d: input is '%s' OK, Time: %llu\n"
+msgstr ""
+
+#: lib/test_bitmap.c:316
+msgid "bitmap_copy_arr32(nbits == %d:"
+msgstr ""
+
+#: lib/test_bitmap.c:340
+msgid "set not equal %d %d\n"
+msgstr ""
+
+#: lib/test_bitmap.c:344
+msgid "set not __equal %d %d\n"
+msgstr ""
+
+#: lib/test_bitmap.c:351
+msgid "clear not equal %d %d\n"
+msgstr ""
+
+#: lib/test_bitmap.c:355
+msgid "clear not __equal %d %d\n"
+msgstr ""
+
+#: lib/test_bitmap.c:373
+msgid "all %u tests passed\n"
+msgstr ""
+
+#: lib/test_bitmap.c:375
+msgid "failed %u out of %u tests\n"
+msgstr ""
+
+#: lib/test_bpf.c:6369
+msgid "PASS\n"
+msgstr ""
+
+#: lib/test_bpf.c:6374
+msgid "UNEXPECTED_PASS\n"
+msgstr ""
+
+#: lib/test_bpf.c:6383
+msgid "FAIL to prog_create err=%d len=%d\n"
+msgstr ""
+
+#: lib/test_bpf.c:6392
+msgid "UNEXPECTED_FAIL no memory left\n"
+msgstr ""
+
+#: lib/test_bpf.c:6408
+msgid "FAIL to select_runtime err=%d\n"
+msgstr ""
+
+#: lib/test_bpf.c:6466
+msgid "data generation failed "
+msgstr ""
+
+#: lib/test_bpf.c:6474
+msgid "%lld "
+msgstr ""
+
+#: lib/test_bpf.c:6476
+msgid "ret %d != %d "
+msgstr ""
+
+#: lib/test_bpf.c:6515
+msgid "test_bpf: invalid test_id specified.\n"
+msgstr ""
+
+#: lib/test_bpf.c:6529
+msgid "test_bpf: no test named '%s' found.\n"
+msgstr ""
+
+#: lib/test_bpf.c:6542
+msgid "test_bpf: test_range is out of bound.\n"
+msgstr ""
+
+#: lib/test_bpf.c:6547
+msgid "test_bpf: test_range is ending before it starts.\n"
+msgstr ""
+
+#: lib/test_bpf.c:6646
+msgid "%s: failed to build_test_skb"
+msgstr ""
+
+#: lib/test_bpf.c:6654
+msgid "%s: success in skb_segment!"
+msgstr ""
+
+#: lib/test_bpf.c:6656
+msgid "%s: failed in skb_segment!"
+msgstr ""
+
+#: lib/test_bpf.c:6676
+msgid "#%d %s "
+msgstr ""
+
+#: lib/test_bpf.c:6688
+msgid "jited:%u "
+msgstr ""
+
+#: lib/test_bpf.c:6698
+msgid "FAIL (%d times)\n"
+msgstr ""
+
+#: lib/test_bpf.c:6706
+msgid "Summary: %d PASSED, %d FAILED, [%d/%d JIT'ed]\n"
+msgstr ""
+
+#: lib/test_debug_virtual.c:27
+msgid "PA: %pa for VA: 0x%lx\n"
+msgstr ""
+
+#: lib/test_firmware.c:202
+msgid "could not alloc settings for config trigger: %d\n"
+msgstr ""
+
+#: lib/test_firmware.c:207
+msgid "reset\n"
+msgstr ""
+
+#: lib/test_firmware.c:372
+msgid "Must call release_all_firmware prior to changing config\n"
+msgstr ""
+
+#: lib/test_firmware.c:460
+msgid "loading '%s'\n"
+msgstr ""
+
+#: lib/test_firmware.c:467
+msgid "load of '%s' failed: %d\n"
+msgstr ""
+
+#: lib/test_firmware.c:470
+msgid "loaded: %zu\n"
+msgstr ""
+
+#: lib/test_firmware.c:509
+msgid "async load of '%s' failed: %d\n"
+msgstr ""
+
+#: lib/test_firmware.c:522
+msgid "failed to async load firmware\n"
+msgstr ""
+
+#: lib/test_firmware.c:544
+msgid "loading '%s' using custom fallback mechanism\n"
+msgstr ""
+
+#: lib/test_firmware.c:588
+msgid "#%u: batched sync load failed: %d\n"
+msgstr ""
+
+#: lib/test_firmware.c:594
+msgid "#%u: batched sync loaded %zu\n"
+msgstr ""
+
+#: lib/test_firmware.c:627
+msgid "batched sync firmware loading '%s' %u times\n"
+msgstr ""
+
+#: lib/test_firmware.c:645
+msgid "Setting up thread %u failed\n"
+msgstr ""
+
+#: lib/test_firmware.c:729
+msgid "batched loading '%s' custom fallback mechanism %u times\n"
+msgstr ""
+
+#: lib/test_firmware.c:750
+msgid "#%u: batched async load failed setup: %d\n"
+msgstr ""
+
+#: lib/test_firmware.c:827
+msgid "#%u: failed to async load firmware\n"
+msgstr ""
+
+#: lib/test_firmware.c:832
+msgid "#%u: loaded %zu\n"
+msgstr ""
+
+#: lib/test_firmware.c:835
+msgid "Testing interface must use PAGE_SIZE firmware for now\n"
+msgstr ""
+
+#: lib/test_firmware.c:899
+msgid "could not register misc device: %d\n"
+msgstr ""
+
+#: lib/test_firmware.c:903
+msgid "interface ready\n"
+msgstr ""
+
+#: lib/test_firmware.c:919
+msgid "removed interface\n"
+msgstr ""
+
+#: lib/test_hash.c:78
+msgid "__hash_32(%#x) = %#x != __hash_32_generic() = %#x"
+msgstr ""
+
+#: lib/test_hash.c:92
+msgid "hash_32(%#x, %d) = %#x > %#x"
+msgstr ""
+
+#: lib/test_hash.c:99
+msgid "hash_32(%#x, %d) = %#x != hash_32_generic() "
+msgstr ""
+
+#: lib/test_hash.c:105
+msgid "hash_32_generic(%#x, %d) = %#x > %#x"
+msgstr ""
+
+#: lib/test_hash.c:114
+msgid "hash_64(%#llx, %d) = %#x > %#x"
+msgstr ""
+
+#: lib/test_hash.c:121
+msgid "hash_64(%#llx, %d) = %#x != hash_64_generic() "
+msgstr ""
+
+#: lib/test_hash.c:127
+msgid "hash_64_generic(%#llx, %d) = %#x > %#x"
+msgstr ""
+
+#: lib/test_hash.c:162
+msgid "hashlen_string(%d..%d) returned length"
+msgstr ""
+
+#: lib/test_hash.c:169
+msgid "hashlen_string(%d..%d) = %08x != "
+msgstr ""
+
+#: lib/test_hash.c:185
+msgid "OR of all string hash results = %#x != %#x"
+msgstr ""
+
+#: lib/test_hash.c:190
+msgid "OR of all __hash_32 results = %#x != %#x"
+msgstr ""
+
+#: lib/test_hash.c:197
+msgid "OR of all __hash_32_generic results = %#x != %#x"
+msgstr ""
+
+#: lib/test_hash.c:209
+msgid "OR of all hash_32(%d) results = %#x "
+msgstr ""
+
+#: lib/test_hash.c:214
+msgid "OR of all hash_64(%d) results = %#x "
+msgstr ""
+
+#: lib/test_hash.c:223
+msgid "__hash_32() is arch-specific; not compared to generic."
+msgstr ""
+
+#: lib/test_hash.c:226
+msgid "__hash_32() has no arch implementation to test."
+msgstr ""
+
+#: lib/test_hash.c:230
+msgid "hash_32() is arch-specific; not compared to generic."
+msgstr ""
+
+#: lib/test_hash.c:233
+msgid "hash_32() has no arch implementation to test."
+msgstr ""
+
+#: lib/test_hash.c:237
+msgid "hash_64() is arch-specific; not compared to generic."
+msgstr ""
+
+#: lib/test_hash.c:240
+msgid "hash_64() has no arch implementation to test."
+msgstr ""
+
+#: lib/test_hash.c:243
+msgid "%u tests passed."
+msgstr ""
+
+#: lib/test_hexdump.c:123
+msgid "Len: %zu row: %d group: %d\n"
+msgstr ""
+
+#: lib/test_hexdump.c:124
+msgid "Result: '%s'\n"
+msgstr ""
+
+#: lib/test_hexdump.c:125
+msgid "Expect: '%s'\n"
+msgstr ""
+
+#: lib/test_hexdump.c:181
+msgid "Len: %zu buflen: %zu strlen: %zu\n"
+msgstr ""
+
+#: lib/test_hexdump.c:183
+msgid "Result: %d '%s'\n"
+msgstr ""
+
+#: lib/test_hexdump.c:184
+msgid "Expect: %d '%s'\n"
+msgstr ""
+
+#: lib/test_kasan.c:11
+msgid "kasan test: %s "
+msgstr ""
+
+#: lib/test_kasan.c:34
+msgid "out-of-bounds to right\n"
+msgstr ""
+
+#: lib/test_kasan.c:37
+msgid "Allocation failed\n"
+msgstr ""
+
+#: lib/test_kasan.c:50
+msgid "out-of-bounds to left\n"
+msgstr ""
+
+#: lib/test_kasan.c:66
+msgid "kmalloc_node(): out-of-bounds to right\n"
+msgstr ""
+
+#: lib/test_kasan.c:86
+msgid "kmalloc pagealloc allocation: out-of-bounds to right\n"
+msgstr ""
+
+#: lib/test_kasan.c:102
+msgid "kmalloc pagealloc allocation: use-after-free\n"
+msgstr ""
+
+#: lib/test_kasan.c:118
+msgid "kmalloc pagealloc allocation: invalid-free\n"
+msgstr ""
+
+#: lib/test_kasan.c:136
+msgid "kmalloc large allocation: out-of-bounds to right\n"
+msgstr ""
+
+#: lib/test_kasan.c:153
+msgid "out-of-bounds after krealloc more\n"
+msgstr ""
+
+#: lib/test_kasan.c:172
+msgid "out-of-bounds after krealloc less\n"
+msgstr ""
+
+#: lib/test_kasan.c:190
+msgid "kmalloc out-of-bounds for 16-bytes access\n"
+msgstr ""
+
+#: lib/test_kasan.c:209
+msgid "out-of-bounds in memset2\n"
+msgstr ""
+
+#: lib/test_kasan.c:225
+msgid "out-of-bounds in memset4\n"
+msgstr ""
+
+#: lib/test_kasan.c:242
+msgid "out-of-bounds in memset8\n"
+msgstr ""
+
+#: lib/test_kasan.c:258
+msgid "out-of-bounds in memset16\n"
+msgstr ""
+
+#: lib/test_kasan.c:274
+msgid "out-of-bounds in memset\n"
+msgstr ""
+
+#: lib/test_kasan.c:290
+msgid "use-after-free\n"
+msgstr ""
+
+#: lib/test_kasan.c:306
+msgid "use-after-free in memset\n"
+msgstr ""
+
+#: lib/test_kasan.c:322
+msgid "use-after-free after another kmalloc\n"
+msgstr ""
+
+#: lib/test_kasan.c:338
+msgid "Could not detect use-after-free: ptr1 == ptr2\n"
+msgstr ""
+
+#: lib/test_kasan.c:350
+msgid "Cache allocation failed\n"
+msgstr ""
+
+#: lib/test_kasan.c:353
+msgid "out-of-bounds in kmem_cache_alloc\n"
+msgstr ""
+
+#: lib/test_kasan.c:379
+msgid "allocate memcg accounted object\n"
+msgstr ""
+
+#: lib/test_kasan.c:404
+msgid "out-of-bounds global variable\n"
+msgstr ""
+
+#: lib/test_kasan.c:414
+msgid "out-of-bounds on stack\n"
+msgstr ""
+
+#: lib/test_kasan.c:423
+msgid "ksize() unpoisons the whole allocated chunk\n"
+msgstr ""
+
+#: lib/test_kasan.c:452
+msgid "Failed to allocate user memory\n"
+msgstr ""
+
+#: lib/test_kasan.c:457
+msgid "out-of-bounds in copy_from_user()\n"
+msgstr ""
+
+#: lib/test_kasan.c:460
+msgid "out-of-bounds in copy_to_user()\n"
+msgstr ""
+
+#: lib/test_kasan.c:463
+msgid "out-of-bounds in __copy_from_user()\n"
+msgstr ""
+
+#: lib/test_kasan.c:466
+msgid "out-of-bounds in __copy_to_user()\n"
+msgstr ""
+
+#: lib/test_kasan.c:469
+msgid "out-of-bounds in __copy_from_user_inatomic()\n"
+msgstr ""
+
+#: lib/test_kasan.c:472
+msgid "out-of-bounds in __copy_to_user_inatomic()\n"
+msgstr ""
+
+#: lib/test_kasan.c:475
+msgid "out-of-bounds in strncpy_from_user()\n"
+msgstr ""
+
+#: lib/test_kasan.c:486
+msgid "use-after-scope on int\n"
+msgstr ""
+
+#: lib/test_kasan.c:495
+msgid "use-after-scope on array\n"
+msgstr ""
+
+#: lib/test_kasan.c:511
+msgid "out-of-bounds to left on alloca\n"
+msgstr ""
+
+#: lib/test_kasan.c:521
+msgid "out-of-bounds to right on alloca\n"
+msgstr ""
+
+#: lib/test_kasan.c:536
+msgid "double-free on heap object\n"
+msgstr ""
+
+#: lib/test_kasan.c:561
+msgid "invalid-free of heap object\n"
+msgstr ""
+
+#: lib/test_kmod.c:1096
+msgid "Cannot alloc kmod_config_init()\n"
+msgstr ""
+
+#: lib/test_kmod.c:1106
+msgid "Cannot alloc misc_dev->name\n"
+msgstr ""
+
+#: lib/test_kmod.c:1144
+msgid "reached limit of number of test devices\n"
+msgstr ""
+
+#: lib/test_kmod.c:1179
+msgid "Cannot add first test kmod device\n"
+msgstr ""
+
+#: lib/test_list_sort.c:0
+msgid "list_sort_test: "
+msgstr ""
+
+#: lib/test_list_sort.c:33
+msgid "error: incorrect serial %d\n"
+msgstr ""
+
+#: lib/test_list_sort.c:41
+msgid "error: phantom element\n"
+msgstr ""
+
+#: lib/test_list_sort.c:45
+msgid "error: bad poison: %#x/%#x\n"
+msgstr ""
+
+#: lib/test_list_sort.c:75
+msgid "start testing list_sort()\n"
+msgstr ""
+
+#: lib/test_list_sort.c:103
+msgid "error: list is corrupted\n"
+msgstr ""
+
+#: lib/test_list_sort.c:109
+msgid "error: list is not sorted\n"
+msgstr ""
+
+#: lib/test_list_sort.c:116
+msgid "error: order of equivalent elements not "
+msgstr ""
+
+#: lib/test_list_sort.c:122
+msgid "error: element check failed\n"
+msgstr ""
+
+#: lib/test_list_sort.c:134
+msgid "error: bad list length %d"
+msgstr ""
+
+#: lib/test_module.c:1
+msgid "Hello, world"
+msgstr ""
+
+#: lib/test_module.c:17
+msgid "Hello, world\n"
+msgstr ""
+
+#: lib/test_module.c:26
+msgid "Goodbye\n"
+msgstr ""
+
+#: lib/test_parman.c:308
+msgid "Array limit is lower than the base count (%lu < %lu)\n"
+msgstr ""
+
+#: lib/test_parman.c:321
+msgid "Gap found in array even though they are forbidden\n"
+msgstr ""
+
+#: lib/test_parman.c:329
+msgid ""
+"Item belongs under higher priority then the last one (current: %lu, "
+"previous: %lu)\n"
+msgstr ""
+
+#: lib/test_parman.c:336
+msgid ""
+"Item has different index in compare to where it actually is (%lu != %d)\n"
+msgstr ""
+
+#: lib/test_parman.c:343
+msgid "Number of used items in array does not match (%u != %u)\n"
+msgstr ""
+
+#: lib/test_parman.c:349
+msgid ""
+"Number of unused item at the end of array is bigger than resize step (%u >= "
+"%lu)\n"
+msgstr ""
+
+#: lib/test_parman.c:354
+msgid "Priority array check successful\n"
+msgstr ""
+
+#: lib/test_printf.c:46
+msgid "vsnprintf(buf, %d, \\"
+msgstr ""
+
+#: lib/test_printf.c:46
+msgid ", ...) returned %d, expected %d\n"
+msgstr ""
+
+#: lib/test_printf.c:52
+msgid ", ...) wrote before buffer\n"
+msgstr ""
+
+#: lib/test_printf.c:58
+msgid "vsnprintf(buf, 0, \\"
+msgstr ""
+
+#: lib/test_printf.c:58
+msgid ", ...) wrote to buffer\n"
+msgstr ""
+
+#: lib/test_printf.c:67
+msgid ", ...) did not nul-terminate buffer\n"
+msgstr ""
+
+#: lib/test_printf.c:73
+msgid ", ...) wrote beyond the nul-terminator\n"
+msgstr ""
+
+#: lib/test_printf.c:79
+msgid ", ...) wrote '%s', expected '%.*s'\n"
+msgstr ""
+
+#: lib/test_printf.c:94
+msgid ""
+"error in test suite: expected output length %d too long. Format was '%s'.\n"
+msgstr ""
+
+#: lib/test_printf.c:118
+msgid "kvasprintf(..., \\"
+msgstr ""
+
+#: lib/test_printf.c:118
+msgid ", ...) returned '%s', expected '%s'\n"
+msgstr ""
+
+#: lib/test_printf.c:264
+msgid "plain 'p' does not appear to be hashed\n"
+msgstr ""
+
+#: lib/test_printf.c:271
+msgid "hashing plain 'p' has unexpected format\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:134
+msgid " %u insertions retried after -ENOMEM\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:158
+msgid "Test failed: Could not find key %u\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:161
+msgid "Test failed: Unexpected entry found for key %u\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:166
+msgid "Test failed: Lookup value mismatch %u!=%u\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:186
+msgid "Test failed: allocation error"
+msgstr ""
+
+#: lib/test_rhashtable.c:194
+msgid "Info: encountered resize\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:198
+msgid "Test failed: rhashtable_walk_next() error: %ld\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:209
+msgid ""
+"  Traversal complete: counted=%u, nelems=%u, entries=%d, table-jumps=%u\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:213
+msgid "Test failed: Total count mismatch ^^^"
+msgstr ""
+
+#: lib/test_rhashtable.c:228
+msgid "  Adding %d keys\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:242
+msgid "  %u insertions retried due to memory pressure\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:252
+msgid "  Deleting %d keys\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:269
+msgid "  Duration of test: %lld ns\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:317
+msgid "test %d add/delete pairs into rhlist\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:377
+msgid "test %d random rhlist add/delete operations\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:482
+msgid "insert element %u should have failed with %d, got %d\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:533
+msgid ""
+"\n"
+"---- ht: ----%s\n"
+"-------------\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:581
+msgid "test inserting duplicates\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:613
+msgid "  found unexpected object %d-%d\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:616
+msgid "  object %d-%d not found!\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:619
+msgid "  wrong object returned (got %d-%d, expected %d-%d)\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:636
+msgid "  thread[%d]: down_interruptible failed\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:645
+msgid "  thread[%d]: rhashtable_insert_fast failed\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:651
+msgid "  thread[%d]: %u insertions retried due to memory pressure\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:656
+msgid "  thread[%d]: rhashtable_lookup_test failed\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:668
+msgid "  thread[%d]: rhashtable_remove_fast failed\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:678
+msgid "  thread[%d]: rhashtable_lookup_test (2) failed\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:712
+msgid "Running rhashtable test nelem=%d, max_size=%d, shrinking=%d\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:718
+msgid "Test %02d:\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:723
+msgid "Test failed: Unable to initialize hashtable: %d\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:732
+msgid "Test failed: return code %lld\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:739
+msgid "test if its possible to exceed max_size %d: %s\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:745
+msgid "Average test time: %llu\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:752
+msgid "Testing concurrent rhashtable access from %d threads\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:781
+msgid " kthread_run failed for thread %d\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:786
+msgid "  down interruptible failed\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:793
+msgid "Test failed: thread %d returned: %d\n"
+msgstr ""
+
+#: lib/test_rhashtable.c:807
+msgid "Started %d threads, %d failed, rhltable test returns %d\n"
+msgstr ""
+
+#: lib/test_siphash.c:124
+msgid "siphash self-test aligned %u: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:129
+msgid "siphash self-test unaligned %u: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:134
+msgid "hsiphash self-test aligned %u: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:139
+msgid "hsiphash self-test unaligned %u: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:145
+msgid "siphash self-test 1u64: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:150
+msgid "siphash self-test 2u64: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:156
+msgid "siphash self-test 3u64: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:162
+msgid "siphash self-test 4u64: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:167
+msgid "siphash self-test 1u32: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:172
+msgid "siphash self-test 2u32: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:178
+msgid "siphash self-test 3u32: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:184
+msgid "siphash self-test 4u32: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:189
+msgid "hsiphash self-test 1u32: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:194
+msgid "hsiphash self-test 2u32: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:200
+msgid "hsiphash self-test 3u32: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:206
+msgid "hsiphash self-test 4u32: FAIL\n"
+msgstr ""
+
+#: lib/test_siphash.c:210
+msgid "self-tests: pass\n"
+msgstr ""
+
+#: lib/test_sort.c:31
+msgid "test has failed\n"
+msgstr ""
+
+#: lib/test_sort.c:35
+msgid "test passed\n"
+msgstr ""
+
+#: lib/test_string.c:132
+msgid "String selftests succeeded\n"
+msgstr ""
+
+#: lib/test_string.c:135
+msgid "String selftest failure %d.%08x\n"
+msgstr ""
+
+#: lib/test_user_copy.c:45
+msgid "%s\n"
+msgstr ""
+
+#: lib/test_user_copy.c:102
+msgid "0x%llx != 0x%llx\n"
+msgstr ""
+
+#: lib/test_user_copy.c:159
+msgid "0x%llx != 0\n"
+msgstr ""
+
+#: lib/test_user_copy.c:178
+msgid "tests passed.\n"
+msgstr ""
+
+#: lib/test_user_copy.c:189
+msgid "unloaded.\n"
+msgstr ""
+
+#: lib/test_uuid.c:47
+msgid "%s test #%u %s %s data: '%s'\n"
+msgstr ""
+
+#: lib/test_uuid.c:54
+msgid "%s test #%u actual data: '%s'\n"
+msgstr ""
+
+#: lib/textsearch.c:97
+msgid "Oh my god, dancing chickens at \\%d\n"
+msgstr ""
+
+#: lib/ubsan.c:53
+msgid "%s %s:%d:%d\n"
+msgstr ""
+
+#: lib/ubsan.c:151
+msgid "========================================"
+msgstr ""
+
+#: lib/ubsan.c:181
+msgid "%s integer overflow:\n"
+msgstr ""
+
+#: lib/ubsan.c:183
+msgid "%s %c %s cannot be represented in type %s\n"
+msgstr ""
+
+#: lib/ubsan.c:230
+msgid "negation of %s cannot be represented in type %s:\n"
+msgstr ""
+
+#: lib/ubsan.c:253
+msgid "division of %s by -1 cannot be represented in type %s\n"
+msgstr ""
+
+#: lib/ubsan.c:256
+msgid "division by zero\n"
+msgstr ""
+
+#: lib/ubsan.c:271
+msgid "%s null pointer of type %s\n"
+msgstr ""
+
+#: lib/ubsan.c:288
+msgid "%s misaligned address %p for type %s\n"
+msgstr ""
+
+#: lib/ubsan.c:291
+msgid "which requires %ld byte alignment\n"
+msgstr ""
+
+#: lib/ubsan.c:305
+msgid "%s address %p with insufficient space\n"
+msgstr ""
+
+#: lib/ubsan.c:308
+msgid "for an object of type %s\n"
+msgstr ""
+
+#: lib/ubsan.c:365
+msgid "variable length array bound value %s <= 0\n"
+msgstr ""
+
+#: lib/ubsan.c:383
+msgid "index %s is out of range for type %s\n"
+msgstr ""
+
+#: lib/ubsan.c:407
+msgid "shift exponent %s is negative\n"
+msgstr ""
+
+#: lib/ubsan.c:411
+msgid "shift exponent %s is too large for %u-bit type %s\n"
+msgstr ""
+
+#: lib/ubsan.c:416
+msgid "left shift of negative value %s\n"
+msgstr ""
+
+#: lib/ubsan.c:419
+msgid "left shift of %s by %s places cannot be"
+msgstr ""
+
+#: lib/ubsan.c:435
+msgid "calling __builtin_unreachable()\n"
+msgstr ""
+
+#: lib/ubsan.c:437
+msgid "can't return from __builtin_unreachable()"
+msgstr ""
+
+#: lib/ubsan.c:454
+msgid "load of value %s is not a valid value for type %s\n"
+msgstr ""
