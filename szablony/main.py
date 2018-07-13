@@ -1,8 +1,11 @@
 import os
 import re
 import argparse
+import sys
 
 def main():
+    print("Wersja przed-alfa. Ostrożnie.", file=sys.stderr)
+
     parser = argparse.ArgumentParser(description='Przetwarza źródła na szablony do tłumaczenia.')
     grupa = parser.add_mutually_exclusive_group(required=True)
     grupa.add_argument('-z', '--zrodla', help="Katalog, który chcesz przetworzyć")
@@ -71,7 +74,6 @@ def main():
         p = open(os.path.join(arg.wyjście, nazwa + ".pot"), "w")
         p.write(szablon)
         p.close()
-        break
 
 
 if __name__ == "__main__":
