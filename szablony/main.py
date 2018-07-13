@@ -37,6 +37,14 @@ def main():
 
         szablon = ""
 
+        dodatkowe = set()
+        try:
+            p = open(os.path.join('dodatkowe', nazwa), "r")
+            for linia in p.readlines():
+                dodatkowe.add(linia.strip())
+        except OSError:
+            pass
+
         powtórki = set()
         for plik in źródła:
             p = open(os.path.join('źródła', korzeń, plik), "r")
@@ -48,15 +56,18 @@ def main():
                 continue
             p.close()
 
+
             ciągi = re.findall('"([^"]*)"', źródło)
             ciągi = []
             for l, linia in enumerate(źródło.split('\n')):
-                if linia.find("printk") == -1:
-                    continue
                 for ciąg in re.findall('"([^"]*)"', linia):
                     if not ciąg.strip():
                         continue
                     if ciąg in ('\\n',):
+                        continue
+                    if linia.find("printk") == -1 and linia.find("pr_") == -1 \
+                        and linia.find("panic") == -1 \
+                        and ciąg.strip() not in dodatkowe:
                         continue
                     if ciąg in powtórki:
                         continue
