@@ -26,12 +26,12 @@ static void doublefault_fn(void)
 	native_store_gdt(&gdt_desc);
 	gdt = gdt_desc.address;
 
-	printk(KERN_EMERG "PANIC: double fault, gdt at %08lx [%d bytes]\n", gdt, gdt_desc.size);
+	printk(KERN_EMERG "POPLOCH: podwojny blad, GTD at %08lx [%d bytes]\n", gdt, gdt_desc.size); /*GDT -> GTD (Globalna Tabela Deskryptorow)*/
 
 	if (ptr_ok(gdt)) {
 		gdt += GDT_ENTRY_TSS << 3;
 		tss = get_desc_base((struct desc_struct *)gdt);
-		printk(KERN_EMERG "double fault, tss at %08lx\n", tss);
+		printk(KERN_EMERG "podwojny blad, tss at %08lx\n", tss);
 
 		if (ptr_ok(tss)) {
 			struct x86_hw_tss *t = (struct x86_hw_tss *)tss;
@@ -76,8 +76,8 @@ void df_debug(struct pt_regs *regs, long error_code) {}
 
 void df_debug(struct pt_regs *regs, long error_code)
 {
-	pr_emerg("PANIC: double fault, error_code: 0x%lx\n", error_code);
+	pr_emerg("POPLOCH: podwojny blad, kod_bledu: 0x%lx\n", error_code);
 	show_regs(regs);
-	panic("Machine halted.");
+	panic("Maszyna zatrzymana.");
 }
 #endif
