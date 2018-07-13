@@ -34,6 +34,7 @@ def main():
 
         szablon = ""
 
+        powtórki = set()
         for plik in źródła:
             p = open(os.path.join('źródła', korzeń, plik), "r")
             try:
@@ -50,9 +51,14 @@ def main():
                 if linia.find("printk") == -1:
                     continue
                 for ciąg in re.findall('"([^"]*)"', linia):
-                    if not ciąg.strip(' \n\t'):
+                    if not ciąg.strip():
+                        continue
+                    if ciąg in ('\\n',):
+                        continue
+                    if ciąg in powtórki:
                         continue
 
+                    powtórki.add(ciąg)
                     ciągi.append((ciąg, l))
 
             for ciąg in ciągi:
@@ -65,6 +71,7 @@ def main():
         p = open(os.path.join(arg.wyjście, nazwa + ".pot"), "w")
         p.write(szablon)
         p.close()
+        break
 
 
 if __name__ == "__main__":
