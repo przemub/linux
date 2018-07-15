@@ -791,67 +791,6 @@ msgstr ""
 msgid "PKCS#7 signature info has unexpected non-zero params\n"
 msgstr ""
 
-#: kernel/panic.c:120
-msgid "%s"
-msgstr ""
-
-#: kernel/panic.c:177
-msgid "Kernel panic - not syncing: %s\n"
-msgstr "Poploch jadra - nie zestrajam: %s\n"
-
-#: kernel/panic.c:254
-msgid "normal"
-msgstr ""
-
-#: kernel/panic.c:256
-msgid "Rebooting in %d seconds..\n"
-msgstr ""
-
-#: kernel/panic.c:280
-msgid "Press Stop-A (L1-A) from sun keyboard or send break\n"
-msgstr ""
-
-#: kernel/panic.c:292
-msgid "---[ end Kernel panic - not syncing: %s ]---\n"
-msgstr "---[ koniec poplochu jadra - nie zestrajam: %s ]---\n"
-
-#: kernel/panic.c:341
-msgid "Tainted: "
-msgstr "Splugawione: "
-
-#: kernel/panic.c:357
-msgid "Not tainted"
-msgstr "Niesplugawione: "
-
-#: kernel/panic.c:384
-msgid "Disabling lock debugging due to kernel taint\n"
-msgstr ""
-
-#: kernel/panic.c:489
-msgid "---[ end trace %016llx ]---\n"
-msgstr ""
-
-#: kernel/panic.c:517
-msgid "WARNING: CPU: %d PID: %d at %s:%d %pS\n"
-msgstr ""
-"Ostrzeżenie: Jednostka obliczeniowa: %d Numer zadania: %d na %s:%d %pS\n"
-
-#: kernel/panic.c:521
-msgid "WARNING: CPU: %d PID: %d at %pS\n"
-msgstr "Ostrzeżenie: Jednostka obliczeniowa: %d Numer zadania: %d na %s %pS\n"
-
-#: kernel/panic.c:535
-msgid "panic_on_warn set ...\n"
-msgstr ""
-
-#: kernel/panic.c:633
-msgid "stack-protector: Kernel stack is corrupted in: %pB\n"
-msgstr ""
-
-#: kernel/panic.c:660
-msgid "panic"
-msgstr "popłoch"
-
 #: kernel/params.c:113
 msgid "Setting dangerous option %s - tainting kernel\n"
 msgstr ""
@@ -1059,86 +998,6 @@ msgstr ""
 msgid "%*c%pS\n"
 msgstr ""
 
-#: kernel/sysctl.c:654
-msgid "tracepoint_printk"
-msgstr ""
-
-#: kernel/sysctl.c:807
-msgid "panic_on_oops"
-msgstr ""
-
-#: kernel/sysctl.c:815
-msgid "printk"
-msgstr ""
-
-#: kernel/sysctl.c:822
-msgid "printk_ratelimit"
-msgstr ""
-
-#: kernel/sysctl.c:829
-msgid "printk_ratelimit_burst"
-msgstr ""
-
-#: kernel/sysctl.c:836
-msgid "printk_delay"
-msgstr ""
-
-#: kernel/sysctl.c:845
-msgid "printk_devkmsg"
-msgstr ""
-
-#: kernel/sysctl.c:930
-msgid "softlockup_panic"
-msgstr ""
-
-#: kernel/sysctl.c:952
-msgid "hardlockup_panic"
-msgstr ""
-
-#: kernel/sysctl.c:976
-msgid "unknown_nmi_panic"
-msgstr ""
-
-#: kernel/sysctl.c:985
-msgid "panic_on_unrecovered_nmi"
-msgstr ""
-
-#: kernel/sysctl.c:992
-msgid "panic_on_io_nmi"
-msgstr ""
-
-#: kernel/sysctl.c:1000
-msgid "panic_on_stackoverflow"
-msgstr ""
-
-#: kernel/sysctl.c:1076
-msgid "hung_task_panic"
-msgstr ""
-
-#: kernel/sysctl.c:1190
-msgid "panic_on_warn"
-msgstr ""
-
-#: kernel/sysctl.c:1223
-msgid "panic_on_rcu_stall"
-msgstr ""
-
-#: kernel/sysctl.c:1246
-msgid "panic_on_oom"
-msgstr ""
-
-#: kernel/sysctl.c:1968
-msgid "%s wrote to %s when file position was not 0!\n"
-msgstr ""
-
-#: kernel/sysctl_binary.c:748
-msgid "panic_mask"
-msgstr ""
-
-#: kernel/sysctl_binary.c:1346
-msgid "%d."
-msgstr ""
-
 #: kernel/taskstats.c:692
 msgid "registered taskstats version %d\n"
 msgstr ""
@@ -1259,6 +1118,10 @@ msgstr ""
 msgid "passed successfully\n"
 msgstr ""
 
+#: kernel/torture.c:101
+msgid "%s"
+msgstr ""
+
 #: kernel/torture.c:266
 msgid "onoff: %ld/%ld:%ld/%ld %d,%d:%d,%d %lu:%lu (HZ=%d) "
 msgstr ""
@@ -1285,38 +1148,6 @@ msgstr ""
 
 #: kernel/tracepoint.c:497
 msgid "Failed to register tracepoint module enter notifier\n"
-msgstr ""
-
-#: kernel/watchdog.c:12
-msgid "watchdog: "
-msgstr ""
-
-#: kernel/watchdog.c:78
-msgid "nopanic"
-msgstr ""
-
-#: kernel/watchdog.c:86
-msgid "nmi_watchdog="
-msgstr ""
-
-#: kernel/watchdog.c:190
-msgid "softlockup_panic="
-msgstr ""
-
-#: kernel/watchdog.c:418
-msgid "BUG: soft lockup - CPU#%d stuck for %us! [%s:%d]\n"
-msgstr ""
-
-#: kernel/watchdog.c:442
-msgid "softlockup: hung tasks"
-msgstr ""
-
-#: kernel/watchdog.c:597
-msgid "Failed to initialize soft lockup detector threads\n"
-msgstr ""
-
-#: kernel/watchdog.c:778
-msgid "Disabling watchdog on nohz_full cores by default\n"
 msgstr ""
 
 #: kernel/watchdog_hld.c:12
@@ -1470,4 +1301,173 @@ msgstr ""
 msgid ""
 "workqueue: NUMA node mapping not available for cpu%d, disabling NUMA "
 "support\n"
+msgstr ""
+
+#: kernel/panic.c:177
+msgid "Kernel panic - not syncing: %s\n"
+msgstr "Poploch jadra - nie zestrajam: %s\n"
+
+#: kernel/panic.c:254
+msgid "normal"
+msgstr ""
+
+#: kernel/panic.c:256
+msgid "Rebooting in %d seconds..\n"
+msgstr ""
+
+#: kernel/panic.c:280
+msgid "Press Stop-A (L1-A) from sun keyboard or send break\n"
+msgstr ""
+
+#: kernel/panic.c:292
+msgid "---[ end Kernel panic - not syncing: %s ]---\n"
+msgstr "---[ koniec poplochu jadra - nie zestrajam: %s ]---\n"
+
+#: kernel/panic.c:341 dodatkowe
+msgid "Tainted: "
+msgstr "Splugawione: "
+
+#: kernel/panic.c:357 dodatkowe
+msgid "Not tainted"
+msgstr "Niesplugawione: "
+
+#: kernel/panic.c:384
+msgid "Disabling lock debugging due to kernel taint\n"
+msgstr ""
+
+#: kernel/panic.c:489
+msgid "---[ end trace %016llx ]---\n"
+msgstr ""
+
+#: kernel/panic.c:517
+msgid "WARNING: CPU: %d PID: %d at %s:%d %pS\n"
+msgstr ""
+"Ostrzeżenie: Jednostka obliczeniowa: %d Numer zadania: %d na %s:%d %pS\n"
+
+#: kernel/panic.c:521
+msgid "WARNING: CPU: %d PID: %d at %pS\n"
+msgstr "Ostrzeżenie: Jednostka obliczeniowa: %d Numer zadania: %d na %s %pS\n"
+
+#: kernel/panic.c:535
+msgid "panic_on_warn set ...\n"
+msgstr ""
+
+#: kernel/panic.c:633
+msgid "stack-protector: Kernel stack is corrupted in: %pB\n"
+msgstr ""
+
+#: kernel/panic.c:660
+msgid "panic"
+msgstr "popłoch"
+
+#: kernel/sysctl.c:654
+msgid "tracepoint_printk"
+msgstr ""
+
+#: kernel/sysctl.c:807
+msgid "panic_on_oops"
+msgstr ""
+
+#: kernel/sysctl.c:815
+msgid "printk"
+msgstr ""
+
+#: kernel/sysctl.c:822
+msgid "printk_ratelimit"
+msgstr ""
+
+#: kernel/sysctl.c:829
+msgid "printk_ratelimit_burst"
+msgstr ""
+
+#: kernel/sysctl.c:836
+msgid "printk_delay"
+msgstr ""
+
+#: kernel/sysctl.c:845
+msgid "printk_devkmsg"
+msgstr ""
+
+#: kernel/sysctl.c:930
+msgid "softlockup_panic"
+msgstr ""
+
+#: kernel/sysctl.c:952
+msgid "hardlockup_panic"
+msgstr ""
+
+#: kernel/sysctl.c:976
+msgid "unknown_nmi_panic"
+msgstr ""
+
+#: kernel/sysctl.c:985
+msgid "panic_on_unrecovered_nmi"
+msgstr ""
+
+#: kernel/sysctl.c:992
+msgid "panic_on_io_nmi"
+msgstr ""
+
+#: kernel/sysctl.c:1000
+msgid "panic_on_stackoverflow"
+msgstr ""
+
+#: kernel/sysctl.c:1076
+msgid "hung_task_panic"
+msgstr ""
+
+#: kernel/sysctl.c:1190
+msgid "panic_on_warn"
+msgstr ""
+
+#: kernel/sysctl.c:1223
+msgid "panic_on_rcu_stall"
+msgstr ""
+
+#: kernel/sysctl.c:1246
+msgid "panic_on_oom"
+msgstr ""
+
+#: kernel/sysctl.c:1968
+msgid "%s wrote to %s when file position was not 0!\n"
+msgstr ""
+
+#: kernel/sysctl_binary.c:748
+msgid "panic_mask"
+msgstr ""
+
+#: kernel/sysctl_binary.c:1346
+msgid "%d."
+msgstr ""
+
+#: kernel/watchdog.c:12
+msgid "watchdog: "
+msgstr ""
+
+#: kernel/watchdog.c:78
+msgid "nopanic"
+msgstr ""
+
+#: kernel/watchdog.c:86
+msgid "nmi_watchdog="
+msgstr ""
+
+#: kernel/watchdog.c:190
+msgid "softlockup_panic="
+msgstr ""
+
+#: kernel/watchdog.c:418
+msgid "BUG: soft lockup - CPU#%d stuck for %us! [%s:%d]\n"
+msgstr ""
+
+#: kernel/watchdog.c:442
+msgid "softlockup: hung tasks"
+msgstr ""
+
+#: kernel/watchdog.c:597
+msgid "Failed to initialize soft lockup detector threads\n"
+msgstr ""
+
+#: kernel/watchdog.c:778
+msgid "Disabling watchdog on nohz_full cores by default\n"
 msgstr ""
