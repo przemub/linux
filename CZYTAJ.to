@@ -20,10 +20,13 @@ i wprowadzić go przez to do swojego słownika.
 
 ## Fajne, jak to odpalić?
 
-Użyj instrukcji z neta dla swojej ulubionej dystrybucji, jak skompilować jądro, oczywiście pobierając źródła z tej strony - na przykład tą komendą:
+Użyj instrukcji z neta dla swojej ulubionej dystrybucji, jak skompilować jądro, uprzednio pobierając łatkę z tego repozytorium i stosując ją na źródła - na przykład tak:
 ```sh
-git clone --depth=1 https://github.com/przemub/polinux
+git clone --recurse-submodules https://github.com/przemub/polinux
+cd polinux/zastosuj
+python main.py
 ```
+Po czym w katalogu polinux/linux znajdują się załatane źródła.
 
 *Swoją drogą, używam Archa*, polecam więc tę instrukcję: https://wiki.archlinux.org/index.php/Kernels/Traditional_compilation
 
