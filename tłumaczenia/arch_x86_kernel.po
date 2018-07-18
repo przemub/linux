@@ -493,31 +493,31 @@ msgstr ""
 
 #: arch/x86/kernel/doublefault.c:28
 msgid "PANIC: double fault, gdt at %08lx [%d bytes]\n"
-msgstr ""
+msgstr "Poploch: dwublad, globalna tabela wpisow na %08lx [%d bajtow]\n"
 
 #: arch/x86/kernel/doublefault.c:33
 msgid "double fault, tss at %08lx\n"
-msgstr ""
+msgstr "dwublad, tss na %08lx\n"
 
 #: arch/x86/kernel/doublefault.c:38
 msgid "eip = %08lx, esp = %08lx\n"
-msgstr ""
+msgstr "eip = %08lx, esp = %08lx\n"
 
 #: arch/x86/kernel/doublefault.c:41
 msgid "eax = %08lx, ebx = %08lx, ecx = %08lx, edx = %08lx\n"
-msgstr ""
+msgstr "eax = %08lx, ebx = %08lx, ecx = %08lx, edx = %08lx\n"
 
 #: arch/x86/kernel/doublefault.c:43
 msgid "esi = %08lx, edi = %08lx\n"
-msgstr ""
+msgstr "esi = %08lx, edi = %08lx\n"
 
 #: arch/x86/kernel/doublefault.c:78
 msgid "PANIC: double fault, error_code: 0x%lx\n"
-msgstr ""
+msgstr "Poploch: dwublad, kod_bledu: 0x%lx\n"
 
 #: arch/x86/kernel/doublefault.c:80
 msgid "Machine halted."
-msgstr ""
+msgstr "Maszyna zatrzymana."
 
 #: arch/x86/kernel/dumpstack.c:68
 msgid "%s %s%pB\n"
