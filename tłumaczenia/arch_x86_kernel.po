@@ -461,14 +461,14 @@ msgstr ""
 
 #: arch/x86/kernel/crash.c:12
 msgid "kexec: "
-msgstr ""
+msgstr "kexec: "
 
 #: arch/x86/kernel/crash.c:456
 msgid "Loaded backup region at 0x%lx backup_start=0x%lx memsz=0x%lx\n"
-msgstr ""
+msgstr "Zaladowano region zapasowy na 0x%lx kopia_start=0x%lx pamsz=0x%lx\n"
 
 #: arch/x86/kernel/crash.c:477
-msgid "Loaded ELF headers at 0x%lx bufsz=0x%lx memsz=0x%lx\n"
+msgid "Zaladowano naglowki ELF na 0x%lx bufsz=0x%lx pamsz=0x%lx\n"
 msgstr ""
 
 #: arch/x86/kernel/crash_dump_32.c:68
